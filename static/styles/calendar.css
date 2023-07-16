@@ -2,6 +2,10 @@
 	--cell-height: 6rem;
 }
 
+.today {
+	color: #ff00ff;
+}
+
 section {
 	position: relative;
 	width: 1290px;
@@ -67,8 +71,13 @@ section:first-of-type {
 	/* background-color: #ff00ff; */
 }
 
+.overlap-top {
+	height: 12.5%;
+}
+
 .overlap-bottom {
 	top: 70%;
+	height: 12.5%;
 }
 
 .event-start {

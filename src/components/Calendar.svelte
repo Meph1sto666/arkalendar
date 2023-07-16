@@ -36,6 +36,17 @@
 			return new Date(m.getFullYear(), m.getMonth(), m.getDate() + i);
 		});
 	});
+
+	function getOverlapTags(e:Event, d:Date):string {
+		for (let i of events) {
+			if (e==i) continue
+			if (!(e.isWithinEvent(d) && i.isWithinEvent(d))) continue; // !(e.isWithinEvent(i.getStart()) || e.isWithinEvent(i.getEnd())) && || i.isWithinEvent(e.getStart()) || i.isWithinEvent(e.getEnd())
+			if (i.getStart() <= e.getStart()) return " overlap-bottom"
+			else return " overlap-top"
+		}
+		return ""
+	}
+	
 </script>
 
 <main>
@@ -53,8 +64,8 @@
 					{#each events as e}
 						{#if e.getStart().getMonth() === m[0].getMonth() || e.getEnd().getMonth() == m[0].getMonth()}
 							{#each m as d}
-								{#if e.isWithinEvent(d) && (d.getDay()==0 || isSameDay(d,e.getStart()) || isSameDay(d,e.getEnd()))}
-									<div class="event{isSameDay(d,e.getStart())?' event-start':''}{isSameDay(d,e.getEnd())?' event-end':''}" style="--row: {weeksSinceMonthStart(d)}; --col-start: {isSameDay(d,e.getStart())?(d.getDay()+1)*2:d.getDay()*2+1}; --col-end: {isSameDay(d,e.getEnd())?(e.getEnd().getDay()+1)*2:7*2}; --colors: {timeToColor(e.getStart())}, {timeToColor(e.getEnd())}">{d}</div>
+								{#if e.isWithinEvent(d) && (d.getDay()==0 || isSameDay(d, e.getStart()) || isSameDay(d, e.getEnd()) || d.getDate()==1)}
+									<div class="event{isSameDay(d,e.getStart())?' event-start':''}{isSameDay(d,e.getEnd())?' event-end':''}{getOverlapTags(e,d)}" style="--row: {weeksSinceMonthStart(d)}; --col-start: {isSameDay(d,e.getStart())?(d.getDay()+1)*2:d.getDay()*2+1}; --col-end: {isSameDay(d,e.getEnd())?(e.getEnd().getDay()+1)*2:getDaysInMonth(d)-7<=d.getDate()?(getDaysInMonth(d)-(d.getDate()-1))*2+1:7*2}; --colors: {timeToColor(e.getStart())}, {timeToColor(e.getEnd())}">{e.getDisplayName()}</div>
 								{/if}
 							{/each}
 						{/if}
