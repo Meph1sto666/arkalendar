@@ -1,0 +1,22 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    border: 1px green solid;
+}
+#nav-back {
+    width: 20px;
+    height: 20px;
+    border: 1px red solid;
+}
+#nav-home {
+    width: 20px;
+    height: 20px;
+    border: 1px red solid;
+}
+
