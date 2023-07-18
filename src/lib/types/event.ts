@@ -2,13 +2,13 @@ import { isSameDay } from "$lib";
 import ids from "../../data/calendar/ids.json";
 import { Calendar } from "./calendar";
 
-export interface EventTyoe {
+export interface AkEventTyoe {
 	start: string
 	end: string
 	id: string
 }
 
-export class Event extends Calendar{
+export class AkEvent extends Calendar{
 	private start: Date
 	private end: Date
 	

@@ -5,6 +5,10 @@ export abstract class Calendar {
 		this.id = id;
 	}
 
+	public getId():string {
+		return this.id;
+	}
+
 	public isBeforeEvent(ref:Date, event:Date):boolean {
 		return ref.getTime()-event.getTime()>=0;
 	}
