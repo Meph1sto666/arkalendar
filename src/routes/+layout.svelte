@@ -36,9 +36,6 @@
 		</AppBar>
 	</svelte:fragment>
 	<!-- (sidebarLeft) -->
-	<svelte:fragment slot="sidebarRight">
-		<Calendar></Calendar>
-	</svelte:fragment>
 	<!-- (pageHeader) -->
 	<!-- Router Slot -->
 	<slot />
