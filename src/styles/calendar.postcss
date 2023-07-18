@@ -1,0 +1,150 @@
+:root {
+	--cell-height: 6rem;
+}
+
+.today {
+	/* color: #ff00ff; */
+	background: linear-gradient(-30deg, #ffffff00 80%, #00ff00);
+}
+
+section {
+	position: relative;
+	pointer-events: none;
+	min-width: 400px;
+	width: 50%;
+	max-width: 1200px;
+	left: 50%;
+	transform: translate(-50%);
+}
+section:first-of-type {
+	top: 15%;
+}
+
+.cal-grid {
+	pointer-events: none;
+	display: grid;
+	grid-auto-rows: var(--cell-height);
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.cal-grid-day {
+	@apply w-full
+	relative
+	auto-rows-auto
+	text-gray-600
+	text-lg
+	/* grid-auto-rows: var(--cell-height);
+	grid-column-start: var(--col-start); */
+}
+.cal-grid-day:first-child {
+	@apply text-tertiary-500
+}
+
+.section-shift:not(:first-of-type) {
+	margin-top: calc(0rem - var(--cell-height));
+}
+
+.event {
+	@apply
+	text-center
+	text-base
+	h-1/4
+	overflow-hidden
+	relative
+	overflow-ellipsis
+	top-1/3
+	whitespace-nowrap
+	z-10
+	bg-gradient-to-r
+	variant-gradient-secondary-tertiary
+	text-black
+	pointer-events-auto
+	scroll-mt-7
+	scroll-pt-2
+	/* padding: 0.2em 0.5em; */
+}
+
+.is {
+	font-size: .87rem;
+	grid-column: var(--column);
+	grid-row: var(--row);
+	height: 25%;
+	overflow: hidden;
+	padding: 0.2em 0.5em;
+	position: relative;
+	scroll-margin-top: 7rem;
+	scroll-padding-top: 2rem;
+	text-overflow: ellipsis;
+	top: 40%;
+	white-space: nowrap;
+	z-index: 1;
+	background: linear-gradient(90deg, var(--colors));
+	color: var(--text-color);
+	pointer-events: all;
+}
+
+.overlap-top {
+	height: 12.5%;
+	color: transparent;
+	transition: .25s;
+}
+.overlap-top:hover {
+	height: 25%;
+	color: var(--text-color);
+	transition: .25s;
+}
+
+.overlap-bottom {
+	top: 75%;
+	height: 12.5%;
+	color: transparent;
+	transition: .25s;
+}
+.overlap-bottom:hover {
+	top: calc(75% - 12.5%);
+	color: var(--text-color);
+	height: 25%;
+	transition: .25s;
+}
+.event-start {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.event-end {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-right: 10px;
+}
+
+.overlay {
+	display: grid;
+	grid-auto-rows: var(--cell-height);
+	grid-template-columns: repeat(14, 1fr);
+	inset: 0;
+	pointer-events: none;
+	position: absolute;
+}
+
+.cal-month {
+	@apply
+	text-sm
+	font-bold
+}
+
+.cal-year {
+	@apply
+	text-2xl
+	font-extrabold
+	text-secondary-500
+}
+
+.cal-datetime {
+	@apply
+	uppercase
+	-rotate-90
+	/* -scale-y-100
+	-scale-x-100 */
+	float-left
+	absolute
+}
