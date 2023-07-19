@@ -9,7 +9,6 @@
 	import '../app.postcss';
 	
 	import '../styles/calendar.postcss';
-	import Calendar from "../components/Calendar.svelte";
 
 	let time = getGameTime()
 	function updateTime() {

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { getGameTime, isSameDay, isInSameWeek } from "$lib";
     import type { AkEvent } from "$lib/types/event";
-	import Day from "./Day.svelte";
+	import Day from "./day.svelte";
     export let events: AkEvent[]
     export let m: Date[]
 	const TIME = getGameTime();

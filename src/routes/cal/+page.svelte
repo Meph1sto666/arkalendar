@@ -1,4 +1,4 @@
 <script>
-    import Calendar from "../../components/Calendar.svelte";
+    import Calendar from "../../components/calendar.svelte";
 </script>
 <Calendar></Calendar>

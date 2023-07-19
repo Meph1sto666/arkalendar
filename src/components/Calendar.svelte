@@ -4,7 +4,7 @@
 	import { getDaysInMonth } from "$lib";
     import data from "../data/calendar/events.json";
 	import { AkEvent } from "../lib/types/event";
-	import Month from "./calendar/Month.svelte";
+	import Month from "./calendar/month.svelte";
 	
 	const events: AkEvent[] = [];
 	for (let i of data.future) {
