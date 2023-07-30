@@ -102,5 +102,6 @@
 		"track",
 		"width",
 		"zIndex"
-	]
+	],
+	"iis.configDir": ""
 }

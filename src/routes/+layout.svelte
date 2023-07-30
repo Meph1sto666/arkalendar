@@ -9,6 +9,7 @@
 	import '../app.postcss';
 	
 	import '../styles/calendar.postcss';
+	import { goto } from "$app/navigation";
 
 	let time = getGameTime()
 	function updateTime() {
@@ -21,12 +22,20 @@
 	<svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<div  class="text-4xl">
-					<span class="first-letter: text-secondary-600 p-0 m-0">AR</span>
-					<span class="first-letter: text-primary-600 p-0 m-0">K</span>
-					<span class="first-letter: text-tertiary-600 p-0 m-0">ALENDAR</span>
-				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/">HOME</a>
+							<a href="/cal">Calendar</a>
+						</li>
+					</ul>
+				</nav>
 			</svelte:fragment>
+			<div class="text-4xl text-center">
+				<span class="first-letter: text-secondary-600 p-0 m-0">AR</span>
+				<span class="first-letter: text-primary-600 p-0 m-0">K</span>
+				<span class="first-letter: text-tertiary-600 p-0 m-0">ALENDAR</span>
+			</div>
 			<svelte:fragment slot="trail">
 				<span class="">
 					//{time.getFullYear().toString().padStart(4,"0")}-{time.getMonth().toString().padStart(2,"0")}-{time.getDate().toString().padStart(2,"0")}////{time.getHours().toString().padStart(2,"0")}-{time.getMinutes().toString().padStart(2,"0")}-{time.getSeconds().toString().padStart(2,"0")}//
@@ -34,12 +43,6 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- (sidebarLeft) -->
-	<!-- (pageHeader) -->
-	<!-- Router Slot -->
 	<slot />
-	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
-	<!-- (footer) -->
+	<svelte:fragment slot="footer">Page Footer</svelte:fragment>
 </AppShell>
-<slot></slot>
