@@ -1,7 +1,12 @@
+import { getGameTime } from "$lib";
 import data from "../data/calendar/events.json";
 import { AkEvent } from "../lib/types/event";
 
-const events: AkEvent[] = [];
-for (let i of data.future) {
-	events.push(new AkEvent(i.start, i.end, i.id, i.colors));
+
+export function getCurrentEvent(): AkEvent | null {
+	for (let i of data.future) {
+		let ae = new AkEvent(i.start, i.end, i.id, i.colors)
+		if (ae.isWithinEvent(getGameTime())) return ae
+	}
+	return null
 }

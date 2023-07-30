@@ -1,6 +1,7 @@
 <script>
     import Calendar from "../components/calendar.svelte";
 	import '../styles/main.postcss';
+	import { getCurrentEvent } from "../lib/events"
 </script>
 
 <main class="flex">
@@ -12,6 +13,7 @@
 			</header>
 			<div>
 				<h3 class="h3 text-center">Events</h3>
+				{getCurrentEvent()?.getDisplayName()}
 			</div>
 			<footer>
 				f
