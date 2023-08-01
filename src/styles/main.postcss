@@ -1,0 +1,24 @@
+@import './themes/dark.postcss';
+@import '@skeletonlabs/skeleton/styles/skeleton.css';
+
+.container-aside {
+	min-width: 50rem;
+	max-width: 150rem;
+}
+
+.nav-card {
+	@apply
+	card
+	card-hover
+	p-4 
+}
+
+#events-nav-card {
+	grid-area: 1 / 1 / 2 / 3;
+}
+#birdays-nav-card {
+	grid-area: 2 / 1 / 3 / 2;
+}
+#headhunting-nav-card {
+	grid-area: 2 / 2 / 3 / 3;
+}
