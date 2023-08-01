@@ -1,6 +1,7 @@
 <title>CALENDAR</title>
 
 <script lang="ts">
+	import '../styles/calendar.postcss';
 	import { getDaysInMonth } from "$lib";
     import data from "../data/calendar/events.json";
 	import { AkEvent } from "../lib/types/event";

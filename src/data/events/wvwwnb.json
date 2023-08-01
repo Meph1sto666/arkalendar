@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "first_clear": [
+            {"name": "freshly_brewed_liedaozi", "amount": 930},
+            {"name": "originite_prime", "amount": 29}
+        ],
+        "mission_rewards": [
+            {"name": "freshly_brewed_liedaozi", "amount": 1580},
+            {"name": "module_data_block", "amou": 1},
+            {"name": "symphony_drums", "amou": 1}
+        ],
+        "t3_drops": [
+            {"name": "manganese_ore"},
+            {"name": "aketon"},
+            {"name": "crystaline_component"}
+        ],
+        "shop": [
+            {"name": "hh_permit", "amount": 3},
+            {"name": "module_data_block", "amount": 2},
+            {"name": "d32_steel", "amount": 5}
+        ]
+    }
+}

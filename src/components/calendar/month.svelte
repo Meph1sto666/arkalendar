@@ -9,7 +9,7 @@
 </script>
 
 <section class="{m[0].getDay()!=0?'section-shift':''}">
-    <h1 class="cal-datetime">
+    <h1 class="cal-month">
         {m[0].getFullYear()}
         <span class="cal-month">
             {m[0].toLocaleString('default', { month: 'long' })}

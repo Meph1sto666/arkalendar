@@ -5,9 +5,6 @@
 	import '../styles/themes/dark.postcss';
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	import '../app.postcss';
-	
-	import '../styles/calendar.postcss';
-	import { goto } from "$app/navigation";
 
 	let time = getGameTime()
 	function updateTime() {
