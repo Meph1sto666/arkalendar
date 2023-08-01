@@ -9,14 +9,12 @@
 </script>
 
 <section class="{m[0].getDay()!=0?'section-shift':''}">
-    <div class="cal-datetime">
-        <span class="cal-year">
-            {m[0].getFullYear()}
-        </span>
+    <h1 class="cal-datetime">
+        {m[0].getFullYear()}
         <span class="cal-month">
             {m[0].toLocaleString('default', { month: 'long' })}
         </span>
-    </div>
+    </h1>
     <div class="cal-grid" id={String(m[0].getMonth())}>
         {#each m as d}
         <div class="cal-grid-day{isSameDay(TIME, d)?' today':''}" id={String(d.getDate())} style="{(d.getDate()==1)? 'grid-column-start:' + (d.getDay()+1):''}">

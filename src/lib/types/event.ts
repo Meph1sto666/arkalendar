@@ -43,6 +43,6 @@ export class AkEvent extends Calendar{
 	}
 
 	public getColors():string {
-		return this.colors ? this.colors.join(", ") : `${timeToColor(this.start)}, ${timeToColor(this.end)}`;
+		return this.colors!=null ? this.colors.join(", ") : `${timeToColor(this.start)}, ${timeToColor(this.end)}`;
 	}
 }

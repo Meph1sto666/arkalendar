@@ -8,7 +8,7 @@
 	
 	const events: AkEvent[] = [];
 	for (let i of data.future) {
-		events.push(new AkEvent(i.start, i.end, i.id));
+		events.push(new AkEvent(i.start, i.end, i.id, i.colors));
 	}
 
 	function getMonthsBetweenDates(startDate: Date, endDate: Date): number {
@@ -39,10 +39,8 @@
 	});
 </script>
 
-<main>
-	<div id="cal-container">	
+<main id="cal-container flex">
 		{#each MONTHS as m}
 			<Month m={m} events={events}></Month>
 		{/each}
-	</div>
 </main>

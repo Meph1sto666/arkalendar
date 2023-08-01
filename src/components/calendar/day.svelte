@@ -1,7 +1,7 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
 	import type { AkEvent } from "../../lib/types/event";
-	import { getGameTime, getDaysInMonth, isSameDay, weeksSinceMonthStart, timeToColor, isInSameWeek } from "$lib";
+	import { isSameDay, weeksSinceMonthStart, isInSameWeek } from "$lib";
 	
     export let e: AkEvent
     // export let m
@@ -28,6 +28,6 @@
 </script>
 
 <div on:click={redirectEvent} data-event_id="{e.getId()}" role="none" class="{getClasses(d,e)}"
-style="grid-row: {weeksSinceMonthStart(d)}; grid-column-start: {isSameDay(d,e.getStart())?(d.getDay()+1)*2:d.getDay()*2+1}; grid-column-end: {isInSameWeek(d,e.getEnd())?(e.getEnd().getDay()+1)*2:7*2+1}; --colors: {timeToColor(e.getStart())}, {timeToColor(e.getEnd())}">
+style="grid-row: {weeksSinceMonthStart(d)}; grid-column-start: {isSameDay(d,e.getStart())?(d.getDay()+1)*2:d.getDay()*2+1}; grid-column-end: {isInSameWeek(d,e.getEnd())?(e.getEnd().getDay()+1)*2:7*2+1}; --colors: {e.getColors()}">
     {(isInSameWeek(d,e.getStart()))?e.getDisplayName():''}
 </div>

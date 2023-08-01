@@ -2,15 +2,24 @@
 @import '@skeletonlabs/skeleton/styles/skeleton.css';
 
 .container-aside {
-	min-width: 50rem;
-	max-width: 150rem;
+	min-width: 20rem;
+	max-width: 170rem;
+	@apply
+	p-3
+	w-2/3
 }
 
 .nav-card {
 	@apply
+	overflow-hidden
 	card
 	card-hover
-	p-4 
+	p-3
+}
+
+#cal-preview {
+	@apply
+	w-1/3
 }
 
 #events-nav-card {
