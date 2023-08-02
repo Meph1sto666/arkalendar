@@ -13,7 +13,7 @@
 	<div id="pages" class="w-100 float-left overflow-hidden container-aside grid-cols-2 grid-rows-2 grid gap-3">
 		<a href="/events" id="events-nav-card" class="nav-card variant-ghost-primary">
 			<header>
-				<img src="./src/data/assets/hh_banners/{cEvent?.getId()}_banner.png" alt="Current event" class=" w-full">
+				<img src="/src/data/assets/hh_banners/{cEvent?.getId()}_banner.png" alt="Current event" class=" w-full">
 			</header>
 			<div>
 				<h1 class="h2 text-center">Events</h1>
