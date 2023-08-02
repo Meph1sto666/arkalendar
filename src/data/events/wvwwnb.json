@@ -1,23 +1,22 @@
 {
     "summary": {
         "first_clear": [
-            {"name": "freshly_brewed_liedaozi", "amount": 930},
-            {"name": "originite_prime", "amount": 29}
+            {"id": "act23side_token_spirit", "amount": 930},
+            {"id": "4002", "amount": 29}
         ],
         "mission_rewards": [
-            {"name": "freshly_brewed_liedaozi", "amount": 1580},
-            {"name": "module_data_block", "amou": 1},
-            {"name": "symphony_drums", "amou": 1}
+            {"id": "act23side_token_spirit", "amount": 1580},
+            {"id": "mod_unlock_token", "amount": 1}
         ],
         "t3_drops": [
-            {"name": "manganese_ore"},
-            {"name": "aketon"},
-            {"name": "crystaline_component"}
+            {"id": "30083"},
+            {"id": "30053"},
+            {"id": "31033"}
         ],
         "shop": [
-            {"name": "hh_permit", "amount": 3},
-            {"name": "module_data_block", "amount": 2},
-            {"name": "d32_steel", "amount": 5}
+            {"id": "7003", "amount": 3},
+            {"id": "mod_unlock_token", "amount": 2},
+            {"id": "30135", "amount": 5}
         ]
     }
 }

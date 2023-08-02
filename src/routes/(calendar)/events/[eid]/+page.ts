@@ -1,9 +1,11 @@
+import type { Item } from '$lib/types/item.js';
+
 export async function load({ params }) {
 	const eventId = params.eid;
-	console.log(eventId);
-	
+	let itemTable:Map<string, Item> = new Map(Object.entries((await import("../../../../data/tables/item_table.json")).items))
 	return {
 		id: eventId,
-		eventData: await import(`../../../../data/events/${eventId}.json`)
+		eventData: await import(`../../../../data/events/${eventId}.json`),
+		itemTable: itemTable
 	}
 }
