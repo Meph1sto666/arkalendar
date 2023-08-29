@@ -57,7 +57,7 @@ section:first-of-type {
 	@apply
 	text-center
 	text-base
-	h-1/4
+	h-1/3
 	overflow-hidden
 	relative
 	overflow-ellipsis
@@ -93,27 +93,34 @@ section:first-of-type {
 }
 
 .overlap-top {
-	height: 12.5%;
-	color: transparent;
+	/* color: transparent; */
 	transition: .25s;
+	@apply
+	h-1/4
 }
 .overlap-top:hover {
-	height: 25%;
-	color: var(--text-color);
+	/* height: 25%; */
+	/* color: var(--text-color); */
 	transition: .25s;
+	@apply
+	h-1/3
 }
 
 .overlap-bottom {
 	top: 75%;
-	height: 12.5%;
-	color: transparent;
+	/* height: 12.5%; */
+	/* color: transparent; */
 	transition: .25s;
+	@apply
+	h-1/4
 }
 .overlap-bottom:hover {
-	top: calc(75% - 12.5%);
-	color: var(--text-color);
-	height: 25%;
+	/* top: calc(75% - 12.5%); */
+	/* color: var(--text-color); */
+	/* height: 25%; */
 	transition: .25s;
+	@apply
+	h-1/3
 }
 .event-start {
 	border-top-left-radius: 5px;

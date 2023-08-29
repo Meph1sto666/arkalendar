@@ -9,7 +9,7 @@
     export let events: AkEvent[]
     
     function getClasses(d:Date, e:AkEvent) {
-		return `event${isSameDay(d,e.getStart())?' event-start':''}${isSameDay(d,e.getEnd())?' event-end':''}${getOverlapTags(e,d)}`
+		return `${e.getId()} event${isInSameWeek(d,e.getStart())?' event-start':''}${isInSameWeek(d,e.getEnd())?' event-end':''}` //${getOverlapTags(e,d)}
 	}
 	
 	function redirectEvent(event:Event) {
@@ -19,9 +19,13 @@
     function getOverlapTags(e:AkEvent, d:Date):string {
 		for (let i of events) {
 			if (e==i) continue
-			if (!(e.isWithinEvent(d) && i.isWithinEvent(d))) continue; // !(e.isWithinEvent(i.getStart()) || e.isWithinEvent(i.getEnd())) && || i.isWithinEvent(e.getStart()) || i.isWithinEvent(e.getEnd())
-			if (i.getStart() <= e.getStart()) return " overlap-bottom"
-			else return " overlap-top"
+			
+			if ((e.isWithinEvent(d) !== i.isWithinEvent(d)) && !(isInSameWeek(i.getStart(),d))) continue
+			if (isSameDay(e.getEnd(), i.getStart())) continue
+			if (isSameDay(e.getStart(), i.getEnd())) continue
+			
+			if (i.getStart() >= e.getStart() || i.getEnd() <= e.getEnd()) return " overlap-top"
+			else return " overlap-bottom"
 		}
 		return ""
 	}

@@ -1,0 +1,25 @@
+{
+    "hh_banner": "WhereVernalWindsWillNeverBlowGBLBanner_0.png",
+    "banner": "InvitationToWineGBL_0.png",
+    "id": "act23side",
+    "summary": {
+        "first_clear": [
+            {"id": "act23side_token_spirit", "amount": 930},
+            {"id": "4002", "amount": 29}
+        ],
+        "mission_rewards": [
+            {"id": "act23side_token_spirit", "amount": 1580},
+            {"id": "mod_unlock_token", "amount": 1}
+        ],
+        "t3_drops": [
+            {"id": "30083"},
+            {"id": "30053"},
+            {"id": "31033"}
+        ],
+        "shop": [
+            {"id": "7003", "amount": 3},
+            {"id": "mod_unlock_token", "amount": 2},
+            {"id": "30135", "amount": 5}
+        ]
+    }
+}

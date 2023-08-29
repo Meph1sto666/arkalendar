@@ -30,11 +30,7 @@ export function timeToColor(date:Date):string {
 }
 
 export function isInSameWeek(d1:Date,d2:Date):boolean {
-	// let days = ((Math.round((d2.getTime() - d1.getTime()) / (24 * 60 * 60 * 1000)) - (d1.getDay() + 6) % 7 - (d2.getDay() + 6) % 7) / 7)
-	// console.log(days, d1,d2);
-	
-	// return days<=0;
 	let fdow = new Date(d1.getFullYear(),d1.getMonth(),d1.getDate()-d1.getDay())
-	let ldow = new Date(d1.getFullYear(),d1.getMonth(),fdow.getDate()+7)
-	return d2.getTime() >= fdow.getTime() && d2.getTime() < ldow.getTime()
+	let ldow = new Date(d1.getFullYear(),d1.getMonth(),d1.getDate()+(6-d1.getDay()))
+	return d2.getTime() >= fdow.getTime() && d2.getTime() <= ldow.getTime()
 }

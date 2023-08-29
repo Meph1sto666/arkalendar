@@ -11,7 +11,9 @@
 	<div id="pages" class="w-100 float-left overflow-hidden container-aside grid-cols-2 grid-rows-2 grid gap-3">
 		<a href="/events" id="events-nav-card" class="nav-card variant-ghost-primary">
 			<header>
-				<img src="/assets/banners/{data.eventData.banner}" alt="Current event" class=" w-full">
+				{#if data.eventData!=null}
+					<img src="/assets/banners/{data.eventData.banner}" alt="Current event" class=" w-full">
+				{/if}
 			</header>
 			<div>
 				<h1 class="h2 text-center">Events</h1>
@@ -29,7 +31,9 @@
 		</a>
 		<a href="/headhunting" id="headhunting-nav-card" class="nav-card variant-ghost-tertiary wip" on:click={(event)=>{event.preventDefault()}}>
 			<header>
-				<img src="/assets/banners/{data.eventData.hh_banner}" alt="Current event" class=" w-full">
+				{#if data.eventData!=null}
+					<img src="/assets/banners/{data.eventData.hh_banner}" alt="Current event" class=" w-full">
+				{/if}
 			</header>
 			Headhunting
 		</a>

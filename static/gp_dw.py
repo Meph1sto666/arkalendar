@@ -34,17 +34,17 @@ items:dict[str,dict[str, list[str|int]|str|dict[str,str]] | list[str|int]] = {
 }
 
 def getContent(data:dict[str, typing.Any], k:str) -> typing.Any:
-	path:list[str|int] = list(items["base"]) + items[k]["path"]
-	dataSave = data
+	path:list[str|int] = list(items["base"]) + items[k]["path"] # type: ignore
+	dataSave: dict[str, typing.Any] = data
 	try:
-		for p in path:
+		for p in path: # type: ignore
 			data = data[p] # type: ignore
 	except:
 		try:
-			altPath:list[str|int] = items["base"] + items[k].get("alt_path")
+			altPath:list[str|int] = items["base"] + items[k].get("alt_path") # type: ignore
 			data = dataSave
-			print(altPath)
-			for p in altPath:
+			print(altPath) # type: ignore
+			for p in altPath: # type: ignore
 				data = data[p] # type: ignore
 		except:
 			raise
@@ -76,9 +76,9 @@ for i in items.items():
 	itemUrl: str = normalizeUrl(subContent)
 	ext: str=os.path.splitext(itemUrl)[1]
 	og: str=os.path.split(itemUrl)[1]
-	if i[1].get("lookup") != None:
-		lookupResults:typing.Any|None = lookup(**i[1]["lookup"], val=os.path.splitext(os.path.split(itemUrl)[1])[0].split("_")[-1])
-		filename:str = i[1]["name"].format(**lookupResults, og=og, ext=ext)
+	if i[1].get("lookup") != None: # type: ignore
+		lookupResults:typing.Any|None = lookup(**i[1]["lookup"], val=os.path.splitext(os.path.split(itemUrl)[1])[0].split("_")[-1]) # type: ignore
+		filename:str = i[1]["name"].format(**lookupResults, og=og, ext=ext) # type: ignore
 	else:
-		filename:str=i[1]["name"].format(og=og, ext=ext)
-	open(i[1]['dw_path'].format(filename=filename), "wb").write(requests.get(itemUrl).content)
+		filename:str=i[1]["name"].format(og=og, ext=ext) # type: ignore
+	open(i[1]['dw_path'].format(filename=filename), "wb").write(requests.get(itemUrl).content) # type: ignore

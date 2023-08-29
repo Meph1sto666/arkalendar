@@ -5,7 +5,6 @@
     export let events: AkEvent[]
     export let m: Date[]
 	const TIME = getGameTime();
-
 </script>
 
 <section class="{m[0].getDay()!=0?'section-shift':''}">

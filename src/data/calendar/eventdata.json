@@ -1,0 +1,721 @@
+{
+    "en_US": [
+        {
+            "id": "act15sre",
+            "start": 1691773200,
+            "end": 1692615599,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act33sign",
+            "start": 1690628400,
+            "end": 1692442799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act5pray",
+            "start": 1690563600,
+            "end": 1691751599,
+            "type": "PRAY_ONLY"
+        },
+        {
+            "id": "act13login",
+            "start": 1690563600,
+            "end": 1691751599,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act23side",
+            "start": 1690563600,
+            "end": 1691751599,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act32sign",
+            "start": 1689332400,
+            "end": 1690541999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act22side",
+            "start": 1689249600,
+            "end": 1690455599,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act21side",
+            "start": 1684843200,
+            "end": 1686653999,
+            "type": "TYPE_ACT21SIDE"
+        },
+        {
+            "id": "act1float",
+            "start": 1684843200,
+            "end": 1686049199,
+            "type": "FLOAT_PARADE"
+        },
+        {
+            "id": "act12login",
+            "start": 1684843200,
+            "end": 1686049199,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act14sre",
+            "start": 1686675600,
+            "end": 1687517999,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act31sign",
+            "start": 1684843200,
+            "end": 1686049199,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act30sign",
+            "start": 1683802800,
+            "end": 1684666799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act29sign",
+            "start": 1680282000,
+            "end": 1681124399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act13sre",
+            "start": 1681491600,
+            "end": 1682333999,
+            "type": "TYPE_ACT13SIDE",
+            "isReplicate": true
+        },
+        {
+            "id": "act13mini",
+            "start": 1680886800,
+            "end": 1681469999,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act12mini",
+            "start": 1680282000,
+            "end": 1680865199,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act19side",
+            "start": 1678795200,
+            "end": 1680001199,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act3fun",
+            "start": 1680368400,
+            "end": 1680951599,
+            "type": "APRIL_FOOL"
+        },
+        {
+            "id": "act20side",
+            "start": 1673611200,
+            "end": 1675421999,
+            "type": "TYPE_ACT20SIDE"
+        },
+        {
+            "id": "act1bossrush",
+            "start": 1674234000,
+            "end": 1674817199,
+            "type": "BOSS_RUSH"
+        },
+        {
+            "id": "act10login",
+            "start": 1673611200,
+            "end": 1674817199,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act28sign",
+            "start": 1673611200,
+            "end": 1674817199,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act4pray",
+            "start": 1673611200,
+            "end": 1674817199,
+            "type": "PRAY_ONLY"
+        },
+        {
+            "id": "act12sre",
+            "start": 1677603600,
+            "end": 1678445999,
+            "type": "TYPE_ACT12SIDE",
+            "isReplicate": true
+        },
+        {
+            "id": "act11mini",
+            "start": 1676653200,
+            "end": 1677236399,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act18side",
+            "start": 1672142400,
+            "end": 1673348399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act27sign",
+            "start": 1669633200,
+            "end": 1670497199,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act11sre",
+            "start": 1669395600,
+            "end": 1670237999,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act9login",
+            "start": 1667487600,
+            "end": 1668682799,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act17side",
+            "start": 1667487600,
+            "end": 1669287599,
+            "type": "TYPE_ACT17SIDE"
+        },
+        {
+            "id": "act26sign",
+            "start": 1667487600,
+            "end": 1668682799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act3mine",
+            "start": 1667487600,
+            "end": 1668682799,
+            "type": "GRID_GACHA_V2"
+        },
+        {
+            "id": "act10sre",
+            "start": 1664902800,
+            "end": 1665745199,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act16side",
+            "start": 1663340400,
+            "end": 1664535599,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act10mini",
+            "start": 1660824000,
+            "end": 1661425199,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act25sign",
+            "start": 1659697200,
+            "end": 1661511599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act15side",
+            "start": 1659106800,
+            "end": 1660301999,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act8login",
+            "start": 1659106800,
+            "end": 1660301999,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act3pray",
+            "start": 1659106800,
+            "end": 1660301999,
+            "type": "PRAY_ONLY"
+        },
+        {
+            "id": "act24sign",
+            "start": 1657818000,
+            "end": 1658660399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act9sre",
+            "start": 1657818000,
+            "end": 1658660399,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act23sign",
+            "start": 1656590400,
+            "end": 1657796399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act14side",
+            "start": 1656590400,
+            "end": 1657796399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act8sre",
+            "start": 1653577200,
+            "end": 1654426799,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act22sign",
+            "start": 1651147200,
+            "end": 1652353199,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act7login",
+            "start": 1651147200,
+            "end": 1652353199,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act2mine",
+            "start": 1651147200,
+            "end": 1652353199,
+            "type": "GRID_GACHA_V2"
+        },
+        {
+            "id": "act13side",
+            "start": 1651147200,
+            "end": 1652957999,
+            "type": "TYPE_ACT13SIDE"
+        },
+        {
+            "id": "act18sign",
+            "start": 1650020400,
+            "end": 1650884399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act9mini",
+            "start": 1649948400,
+            "end": 1650538799,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act17d7",
+            "start": 1648810800,
+            "end": 1649415599,
+            "type": "TYPE_ACT17D7"
+        },
+        {
+            "id": "act7sre",
+            "start": 1648738800,
+            "end": 1649588399,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act21sign",
+            "start": 1648810800,
+            "end": 1649674799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act20sign",
+            "start": 1647518400,
+            "end": 1648292399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act8mini",
+            "start": 1645110000,
+            "end": 1645700399,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act6sre",
+            "start": 1643994000,
+            "end": 1644836399,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act12side",
+            "start": 1642161600,
+            "end": 1643972399,
+            "type": "TYPE_ACT12SIDE"
+        },
+        {
+            "id": "act19sign",
+            "start": 1642161600,
+            "end": 1643367599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act2pray",
+            "start": 1642161600,
+            "end": 1643367599,
+            "type": "PRAY_ONLY"
+        },
+        {
+            "id": "act6login",
+            "start": 1642161600,
+            "end": 1643367599,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act1lock",
+            "start": 1640790000,
+            "end": 1641380399,
+            "type": "INTERLOCK"
+        },
+        {
+            "id": "act5sre",
+            "start": 1639753200,
+            "end": 1640602799,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act7mini",
+            "start": 1639051200,
+            "end": 1639652399,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act15d1",
+            "start": 1637838000,
+            "end": 1639047599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act18d3d3",
+            "start": 1634828400,
+            "end": 1636023599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act18d3d2",
+            "start": 1634828400,
+            "end": 1636023599,
+            "type": "GRID_GACHA"
+        },
+        {
+            "id": "act18d3d1",
+            "start": 1634828400,
+            "end": 1636023599,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act18d3",
+            "start": 1634828400,
+            "end": 1636023599,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act18d0",
+            "start": 1633003200,
+            "end": 1634209199,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act17d5",
+            "start": 1631026800,
+            "end": 1631876399,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act17d1",
+            "start": 1629298800,
+            "end": 1630493999,
+            "type": "MULTIPLAY"
+        },
+        {
+            "id": "act17d0d2",
+            "start": 1629298800,
+            "end": 1630493999,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act17d0d1",
+            "start": 1629298800,
+            "end": 1630493999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act17d0",
+            "start": 1629298800,
+            "end": 1630493999,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act16d6",
+            "start": 1628247600,
+            "end": 1630061999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act16d5d2",
+            "start": 1627646400,
+            "end": 1628852399,
+            "type": "PRAY_ONLY"
+        },
+        {
+            "id": "act16d5d1",
+            "start": 1627646400,
+            "end": 1628852399,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act16d5",
+            "start": 1627646400,
+            "end": 1628852399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act15d5",
+            "start": 1625583600,
+            "end": 1626173999,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act15d0",
+            "start": 1624363200,
+            "end": 1625569199,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act7d1",
+            "start": 1621422000,
+            "end": 1622631599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act14d7",
+            "start": 1621004400,
+            "end": 1621853999,
+            "type": "TYPE_ACT5D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act14d0d1",
+            "start": 1619784000,
+            "end": 1620989999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act14d0d2",
+            "start": 1619784000,
+            "end": 1620989999,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act13d5",
+            "start": 1617894000,
+            "end": 1619089199,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act13d0",
+            "start": 1616673600,
+            "end": 1617274799,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act12d6",
+            "start": 1614265200,
+            "end": 1616065199,
+            "type": "ROGUELIKE"
+        },
+        {
+            "id": "act12d0",
+            "start": 1614265200,
+            "end": 1615460399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act13d2d1",
+            "start": 1613214000,
+            "end": 1614077999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act11d7",
+            "start": 1611154800,
+            "end": 1612004399,
+            "type": "TYPE_ACT3D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act9d4",
+            "start": 1609585200,
+            "end": 1610794799,
+            "type": "COLLECTION"
+        },
+        {
+            "id": "act9d1d2",
+            "start": 1609340400,
+            "end": 1610535599,
+            "type": "LOGIN_ONLY"
+        },
+        {
+            "id": "act9d1d1",
+            "start": 1609585200,
+            "end": 1612004399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act9d0",
+            "start": 1607612400,
+            "end": 1609412399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act13d2",
+            "start": 1606402800,
+            "end": 1607252399,
+            "type": "TYPE_ACT9D0",
+            "isReplicate": true
+        },
+        {
+            "id": "act13d2d2",
+            "start": 1606474800,
+            "end": 1607252399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act10d6",
+            "start": 1604055600,
+            "end": 1604919599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act11d0",
+            "start": 1603897200,
+            "end": 1605092399,
+            "type": "TYPE_ACT9D0"
+        },
+        {
+            "id": "act10d5",
+            "start": 1601380800,
+            "end": 1602241199,
+            "type": "MINISTORY"
+        },
+        {
+            "id": "act7d5",
+            "start": 1598452200,
+            "end": 1599649199,
+            "type": "TYPE_ACT4D0"
+        },
+        {
+            "id": "act6d8",
+            "start": 1597230000,
+            "end": 1598439599,
+            "type": "COLLECTION"
+        },
+        {
+            "id": "act6d7",
+            "start": 1596020400,
+            "end": 1597229999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act6d5",
+            "start": 1596056400,
+            "end": 1597229999,
+            "type": "TYPE_ACT4D0"
+        },
+        {
+            "id": "act6d0",
+            "start": 1593601200,
+            "end": 1594810799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act5d1",
+            "start": 1592002800,
+            "end": 1593169199,
+            "type": "TYPE_ACT5D1"
+        },
+        {
+            "id": "act5d0",
+            "start": 1590602400,
+            "end": 1591786799,
+            "type": "TYPE_ACT5D0"
+        },
+        {
+            "id": "act3d7",
+            "start": 1589367600,
+            "end": 1590577199,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act3d5",
+            "start": 1586948400,
+            "end": 1588157999,
+            "type": "COLLECTION"
+        },
+        {
+            "id": "act3d0",
+            "start": 1588194000,
+            "end": 1589367599,
+            "type": "TYPE_ACT3D0"
+        },
+        {
+            "id": "act4d2",
+            "start": 1585738800,
+            "end": 1586948399,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act4d0",
+            "start": 1585177200,
+            "end": 1586343599,
+            "type": "TYPE_ACT4D0"
+        },
+        {
+            "id": "act2d8",
+            "start": 1584615600,
+            "end": 1585738799,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act2d5",
+            "start": 1583406000,
+            "end": 1584615599,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "act1d5",
+            "start": 1582196400,
+            "end": 1583405999,
+            "type": "CHECKIN_ONLY"
+        },
+        {
+            "id": "1stact",
+            "start": 1580943600,
+            "end": 1582109999,
+            "type": "DEFAULT"
+        },
+        {
+            "id": "0D5act",
+            "start": 1579690800,
+            "end": 1580900399,
+            "type": "MISSION_ONLY"
+        }
+    ]
+}

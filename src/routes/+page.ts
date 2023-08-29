@@ -5,6 +5,6 @@ export async function load() {
 	const e:AkEvent|null = getCurrentEvent()
 	return {
 		event: e,
-		eventData: await import(`../../src/data/events/${e?.getId()}.json`)
+		eventData: e?.getId()==undefined?null:await import(`../../src/data/events/${e?.getId()}.json`)
 	}
 }

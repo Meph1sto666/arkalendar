@@ -1,5 +1,5 @@
 import { isSameDay, timeToColor } from "$lib";
-import ids from "../../data/calendar/ids.json";
+import ids from "../../data/calendar/idlist.json";
 import { Calendar } from "./calendar";
 
 export interface AkEventTyoe {
@@ -12,12 +12,14 @@ export interface AkEventTyoe {
 export class AkEvent extends Calendar{
 	private start: Date
 	private end: Date
+	private type: string
 	private colors: string[]|null
 	
-	constructor(start:string, end:string, id:string, colors:string[]|null=null) {
+	constructor(start:number, end:number, id:string, type:string, colors:string[]|null=null) {
 		super(id)
-		this.start = new Date(start)
-		this.end = new Date(end)
+		this.start = new Date(start*1000)
+		this.end = new Date(end*1000)
+		this.type = type
 		this.colors = colors
 	}
 
@@ -30,6 +32,9 @@ export class AkEvent extends Calendar{
 	}
 	public getEnd():Date {
 		return this.end
+	}
+	public getType():string {
+		return this.type
 	}
 	
 	public isBeforeEvent(ref:Date):boolean {
