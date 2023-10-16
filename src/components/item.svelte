@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Item } from '$lib/types/item';
 	export let item: Item | undefined;
+	export let amount: number
 
 	function correctSize(event:Event): void {
 		if (event.target.height > event.target.width) event.target.classList.add("h-full")
@@ -21,4 +22,7 @@
 		width="auto"
 		on:load={correctSize}
 	/>
+	<span class="z-50">
+		{amount}
+	</span>
 </div>
