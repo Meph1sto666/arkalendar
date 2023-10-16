@@ -1,0 +1,2377 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"48befe3114",applicationID:"56773492"};;/*! For license information please see nr-loader-rum-1.244.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.244.0",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.244.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.244.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.244.0.PROD"]=self["webpackChunk:NRBA-1.244.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var C=i(3081);class P extends f{static featureName=C.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,P],loaderType:"lite"})})()})();</script>
+<noscript><meta http-equiv="Refresh" content="0; URL=/arknights/big_pipe/no-js?destination=/arknights/other/arknights-wiki-gamepress" />
+</noscript><script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-78046902-27", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("set", "dimension1", "Nick Winters");ga("set", "dimension2", "Arknights Wiki - GamePress");ga("set", "dimension3", "11");ga("set", "dimension4", "1");ga("set", "dimension5", "2");ga("send", "pageview");</script>
+<meta name="title" content="Arknights Wiki - GamePress" />
+<meta property="og:site_name" content="Arknights Wiki - GamePress" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://gamepress.gg/arknights/" />
+<link rel="shortlink" href="https://gamepress.gg/arknights/" />
+<meta name="description" content="Arknights Wiki, Database, News, and Community for the Arknights Player!" />
+<meta name="twitter:description" content="Welcome to Arknights GamePress, where players can find the latest and best in Arknights Guides, News, and more!" />
+<meta name="twitter:title" content="Arknights Wiki - GamePress" />
+<meta property="og:url" content="https://gamepress.gg/arknights/other/arknights-wiki-gamepress" />
+<meta name="abstract" content="Arknights Wiki, Database, News, and Community for the Arknights Player!" />
+<link rel="image_src" href="https://gamepress.gg/gamepress.jpg" />
+<meta property="og:title" content="Arknights Wiki - GamePress" />
+<meta name="keywords" content="Arknights Wiki, Database, News, and Community for the Arknights Player!" />
+<meta property="og:description" content="Arknights Wiki, Database, News, and Community for the Arknights Player!" />
+<meta name="twitter:url" content="https://gamepress.gg/arknights/other/arknights-wiki-gamepress" />
+<meta name="twitter:image" content="https://gamepress.gg/arknights/sites/arknights/files/2020-01/ak%20og%20front.jpg" />
+<meta property="og:image" content="https://gamepress.gg/arknights/sites/arknights/files/2020-01/ak%20og%20front.jpg" />
+<meta property="og:image" content="https://gamepress.gg/gamepress.jpg" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/arknights/sites/arknights/files/arknights-favicon.png" type="image/png" />
+<link rel="revision" href="https://gamepress.gg/arknights/other/arknights-wiki-gamepress" />
+<title>Arknights Wiki - GamePress</title>
+<link rel="stylesheet" media="all" href="/arknights/core/assets/vendor/normalize-css/normalize.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/misc/normalize-fixes.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/node/node.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/ajax-progress.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/align.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/autocomplete-loading.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/fieldgroup.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/container-inline.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/clearfix.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/details.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/hidden.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/item-list.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/js.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/nowrap.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/position-container.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/progress.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/reset-appearance.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/resize.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/sticky-header.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/system-status-counter.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/system-status-report-counters.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/system-status-report-general-info.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/tabledrag.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/tablesort.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/system/components/tree-child.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/modules/contrib/poll/css/poll.base.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/modules/contrib/poll/css/poll.theme.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/stable/css/views/views.module.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/assets/vendor/jquery.ui/themes/base/core.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/assets/vendor/jquery.ui/themes/base/menu.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/assets/vendor/jquery.ui/themes/base/autocomplete.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/modules/contrib/paragraphs/css/paragraphs.unpublished.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/assets/vendor/jquery.ui/themes/base/theme.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/modules/contrib/search_api_autocomplete/css/search_api_autocomplete.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/themes/main/css/slick.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/themes/main/css/slick-theme.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/themes/main/css/awesomplete.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/themes/main/css/main.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/sites/arknights/themes/gamepressbase/css/gamepressbase.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/action-links.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/breadcrumb.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/button.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/collapse-processed.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/container-inline.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/details.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/exposed-filters.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/field.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/form.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/icons.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/inline-form.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/item-list.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/link.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/links.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/menu.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/more-link.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/pager.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/tabledrag.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/tableselect.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/tablesort.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/tabs.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/textarea.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/ui-dialog.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/messages.css?s11ds5" />
+<link rel="stylesheet" media="all" href="/arknights/core/themes/classy/css/components/progress.css?s11ds5" />
+<!--[if lte IE 8]>
+<script src="/arknights/sites/arknights/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/arknights/core/assets/vendor/modernizr/modernizr.min.js?v=3.3.1"></script>
+<script src="/arknights/sites/arknights/files/js/js_IfqzHiUTwZH2H0gSZOmiplXoH34uGUxDaNEYeime-xM.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+<script src="https://comment.gamepress.gg/js/count.js?ver4"></script>
+</head>
+<body class="one-sidebar sidebar-second site-gamepress frontpage node--type-page">
+<div id="top-page"></div>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+
+<div id="div-ad-Gamepress_Desktop_Skin_1x1">
+<script>
+  if(detectWidth() >= 1680) { googletag.cmd.push(function() { googletag.display('div-ad-Gamepress_Desktop_Skin_1x1'); }); }
+  </script>
+</div>
+<div onclick="closeNav()" id="overlay"></div>
+<script type="text/javascript">
+  (function () {
+  window.aax = window.aax || {}; window.aax.initTime = new Date().getTime(); window.aax.deliverExchangeDemand = function () { };
+  window.aax.pubId = 'AAXDDFXYK';
+  window.aax.ver = 1.2;
+  window.aax.hst = window.location.hostname;
+  var aaxEndpoint = '//c.aaxads.com/aax.js?pub=' + window.aax.pubId + '&hst=' + window.aax.hst + '&ver=' + window.aax.ver;
+  function isSSL() {
+  return ('https:' == document.location.protocol);
+  }
+  function getProtocol() {
+  return isSSL() ? 'https:' : 'http:'
+  }
+  function writeSource(endpoint) {
+  var source = getProtocol() + endpoint;
+  document.write('<scr' + 'ipt type="text/javascript" src="' + source + '"></scr' + 'ipt>');
+  }
+  writeSource(aaxEndpoint);
+  })();
+  </script>
+<script type="text/javascript">
+/* A9 Load Lib */
+!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function()
+{q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(
+A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+</script>
+
+<script type="text/javascript">
+    var adsStart = (new Date()).getTime();
+    function detectWidth() {
+        return window.screen.width || window.innerWidth || window.document.documentElement.clientWidth || Math.min(window.innerWidth, window.document.documentElement.clientWidth) || window.innerWidth || window.document.documentElement.clientWidth || window.document.getElementsByTagName('body')[0].clientWidth;
+    }
+
+    var TIMEOUT = 2000;
+
+    /* A9 Init */
+    apstag.init({
+        pubID: 'edf9e12e-6c41-40a2-bcc3-2f7942aec18a',
+        adServer: 'googletag'
+    });
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    /* A9 Vars */
+    var a9Slots = [];
+    var a9BidsBack = false;
+
+    function initAdServer() {
+        if (pbjs.initAdserverSet) return;
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+        pbjs.initAdserverSet = true;
+    };
+    pbjs.timeout = setTimeout(initAdServer, TIMEOUT);
+    pbjs.timeStart = adsStart;
+
+    var dfpNetwork = '31904509';
+
+    // START: Defining Adunits
+    if(detectWidth() > 980)
+    {
+        // Desktop Adunits
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Desktop_Leaderboard_ATF',
+                size: [[728, 90]],
+                code: 'div-ad-Arknights_Desktop_Leaderboard_ATF',
+                assignToVariableName: false // false if not in use
+            }); 
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Desktop_Leaderboard_BTF',
+                size: [[728, 90]],
+                code: 'div-ad-Arknights_Desktop_Leaderboard_BTF',
+                assignToVariableName: false // false if not in use
+            }); 
+                adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Desktop_RR_A',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Desktop_RR_A',
+                assignToVariableName: false // false if not in use
+            });
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Desktop_RR_B',
+                size: [[300, 250],[300, 600]],
+                code: 'div-ad-Arknights_Desktop_RR_B',
+                assignToVariableName: false // false if not in use
+            });
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Desktop_RR_C',
+                size: [[300, 250],[300, 600]],
+                code: 'div-ad-Arknights_Desktop_RR_C',
+                assignToVariableName: false // false if not in use
+            }); 
+        
+                    console.log("NOT FRONT PAGE or no news module");
+                                                                                                        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Gamepress_Desktop_728x90_Extra_1',
+                size: [[728, 90]],
+                code: 'div-ad-Gamepress_Desktop_728x90_Extra_1',
+                assignToVariableName: false // false if not in use
+            });
+                                                                          adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Gamepress_Desktop_728x90_Extra_2',
+                size: [[728, 90]],
+                code: 'div-ad-Gamepress_Desktop_728x90_Extra_2',
+                assignToVariableName: false // false if not in use
+            });
+                                                                          adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Gamepress_Desktop_728x90_Extra_4',
+                size: [[728, 90]],
+                code: 'div-ad-Gamepress_Desktop_728x90_Extra_4',
+                assignToVariableName: false // false if not in use
+            });    } else {
+        // Mobile Adunits
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_300x250_Extra_3',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Mobile_300x250_Extra_3',
+                assignToVariableName: false // false if not in use
+            }); 
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_300x250_Extra_4',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Mobile_300x250_Extra_4',
+                assignToVariableName: false // false if not in use
+            }); 
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_320x50_Top',
+                size: [[320, 50]],
+                code: 'div-ad-Arknights_Mobile_320x50_Top',
+                assignToVariableName: false // false if not in use
+            }); 
+        adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_320x50_Floating',
+                size: [[320, 50]],
+                code: 'div-ad-Arknights_Mobile_320x50_Floating',
+                assignToVariableName: false // false if not in use
+            });
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_300x250_BTF_1',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Mobile_300x250_BTF_1',
+                assignToVariableName: false // false if not in use
+            }); 
+                                                                                              adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_300x250_BTF_2',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Mobile_300x250_BTF_2',
+                assignToVariableName: false // false if not in use
+            }); 
+                                                                                              adUnits.push({
+                network: dfpNetwork,
+                adunit: 'Arknights_Mobile_300x250_Extra_2',
+                size: [[300, 250]],
+                code: 'div-ad-Arknights_Mobile_300x250_Extra_2',
+                assignToVariableName: false // false if not in use
+            });  
+                                                                                                                                                                                                                                                                        
+    }
+    // END: Defining Adunits
+
+    googletag.cmd.push(function() {
+      if(adUnits){
+        var dfpSlots = [];
+        for (var i = 0, len = adUnits.length; i < len; i++) {
+          dfpSlots[i] = googletag.defineSlot('/'+adUnits[i].network+'/'+adUnits[i].adunit, adUnits[i].size, adUnits[i].code).addService(googletag.pubads());
+          if(adUnits[i].assignToVariableName && (adUnits[i].assignToVariableName !== null)) window[adUnits[i].assignToVariableName] = dfpSlots[i];
+        }
+      }
+    });
+
+    /* A9 Slots */
+    if(adUnits){
+        if(apstag){
+          for (var i = 0, len = adUnits.length; i < len; i++) {
+                  a9Slots.push({slotID: adUnits[i].code,slotName: adUnits[i].network+'/'+adUnits[i].adunit,sizes: adUnits[i].size});
+              }
+        }
+    }
+    /* A9 Request Bids */
+    apstag.fetchBids({
+                        slots: a9Slots,
+                        timeout: TIMEOUT
+                    },
+                    function(bids) {
+                        console.log('BDS back',(new Date()).getTime()-adsStart,bids);
+                        a9BidsBack = true;
+                    });
+
+    googletag.cmd.push(function() {
+        /* A9 Set Bids */
+        if(a9BidsBack) apstag.setDisplayBids();
+        // Header Bidding Targeting
+        pbjs.que.push(function() {pbjs.setTargetingForGPTAsync();});
+
+        if(detectWidth() >= 2200) { googletag.defineSlot('/31904509/Gamepress_Desktop_Skin_1x1', [1, 1], 'div-ad-Gamepress_Desktop_Skin_1x1').addService(googletag.pubads()); }
+
+        // Init DFP
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+    });
+</script>
+<script type="text/javascript" async="true" src="https://gamepress.gg/prebid/prebidglobal.js?1-30-23"></script>
+<div class="gamepress-top-branding">
+<div class="outer-wrapper">
+<a class="gamepresslink" href="https://Gamepress.gg"><img src="/GamePressNewLogo.png"></a>
+<div class="gamepress-sub-menu">
+<div class="outer-wrapper">
+<ul>
+<li><a href="https://discord.gg/yq8D9GX">Discord</a></li>
+</ul>
+</div>
+</div>
+<div class="portal-section">
+<div class="not-loggedin">
+<ul>
+<li><a href="https://gamepress.gg/arknights/cas?returnto=/arknights/other/arknights-wiki-gamepress">Sign In</a></li>
+<li class="register-button"><a href="https://gamepress.gg/user/register">Register</a></li>
+</ul>
+</div>
+</div>
+<script>
+  var baseURL = "https://gamepress.gg";
+
+  function enableDM() {
+    var newNode = {
+      _links: {
+          type: {
+              href: baseURL + '/user/{user}'
+          }
+      },
+      field_dark_mode: {
+          value: 1
+      }
+    };
+    getCsrfToken(function(csrfToken) {
+        postNode(csrfToken, newNode);
+    });
+  }
+
+  function getCsrfToken(callback) {
+    jQuery
+      .get(Drupal.url('session/token'))
+      .done(function (data) {
+        var csrfToken = data;
+        callback(csrfToken);
+      });
+  }
+
+  function patchNode(csrfToken, node) {
+  var urlJSON = baseURL + '/user/' + userID2 + '?_format=hal_json'
+  jQuery.ajax({
+    url: urlJSON,
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/hal+json',
+      'X-CSRF-Token': csrfToken
+    },
+    data: JSON.stringify(node),
+    success: function (node) {
+      window.location.href = baseURL;
+    }
+  });
+}
+
+
+</script> </div>
+</div>
+<div onclick="closeNav()" id="menu-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+<div id="sidenav">
+<div class="sidemenu-icon"><img src="/GamePressNewLogo.png"></div>
+<div class="menu-c-container">
+<ul class="menu">
+<li class="menu-item menu-item--expanded">
+<span>Top Pages</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/tier-list/arknights-operator-tier-list">Tier List</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/tools/interactive-operator-list">Operators List</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/tools/arknights-recruitment-tag-filter">Recruitment Filter Tool</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/tools/summon-simulator">Summon Simulator</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/tools/arknights-operator-planner-beta">Operator Planner</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/guides">More Guides</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Featured</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="/arknights/other/guide-list-core-gameplay" data-drupal-link-system-path="node/11751">New Player and Core Gameplay Guides</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/arknights-guide-high-impact-elite-2-promotions" title="Guide To Elite 2 Priorities" data-drupal-link-system-path="node/12901">Guide To Elite 2 Priorities</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/arknights-operator-recruitment-guide" title="Operator Recruitment Guide" data-drupal-link-system-path="node/11681">Operator Recruitment Guide</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/arknights-riic-base-guide" title="RIIC Base Guide" data-drupal-link-system-path="node/11686">RIIC Base Guide</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/arknights-currency-and-shop-guide" title="Currency and Shop Guide" data-drupal-link-system-path="node/11821">Currency and Shop Guide</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/arknights-guide-operator-trust" title="Guide To Operator Trust" data-drupal-link-system-path="node/12116">Guide To Operator Trust</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/arknights-material-drops-and-originite-prime-totals-future-events-and-episodes" data-drupal-link-system-path="node/24441">Mat Drops Of Future Events And Episodes</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>News</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/arknights-news">News List</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Database</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="/arknights/database/banner-list-gacha" data-drupal-link-system-path="node/7281">Banner List (Gacha)</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/operator-release-dates-and-how-obtain" data-drupal-link-system-path="node/8851">Operator Release Dates &amp; How to Obtain</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/operator-riic-base-skill-list" data-drupal-link-system-path="node/10011">Operator RIIC Base Skill List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/skin-list" data-drupal-link-system-path="node/11831">Skin List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/furniture-theme-list" data-drupal-link-system-path="node/10756">Furniture Theme List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/core-gameplay/summon-guide-and-list-how-do-they-work-and-what-are-their-stats" data-drupal-link-system-path="node/24696">Summon Guide / List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/enemy-list" data-drupal-link-system-path="node/4316">Enemy List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/combat-operation-list" data-drupal-link-system-path="node/8861">Combat Operations</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Database (Extended)</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="/arknights/other/lists-database" data-drupal-link-system-path="node/11761">Operator Lists by Faction, VA, Artist, etc.</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/material-list" data-drupal-link-system-path="node/7261">Material List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/arknights-daily-mission-list" data-drupal-link-system-path="node/11801">Mission List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/facility-list" data-drupal-link-system-path="node/7291">Facility List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/furniture-list" data-drupal-link-system-path="node/4321">Furniture List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/factory-formula-list" data-drupal-link-system-path="node/11671">Factory Formula List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/workshop-formula-list" data-drupal-link-system-path="node/11666">Workshop Formula List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/skill-list" data-drupal-link-system-path="node/7186">Skill List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/talent-list" data-drupal-link-system-path="node/7276">Talent List</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/database/attack-ranges" data-drupal-link-system-path="node/7296">Attack Ranges</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/other/galleries" data-drupal-link-system-path="node/12381">Art Galleries</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Event and Stage Guides</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="/arknights/other/combat-operation-guides" data-drupal-link-system-path="node/12386">Annihilation and Combat Guides</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/event-and-campaign-list">Event Guides and Campaign List</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/cn-event-and-campaign-list">CN Event and Campaigns List</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Manga</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/gallery/rhodes-island-experiences">The Rhodes Island Experiences</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Lore and Galleries</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/lore-library">Lore Libraries</a>
+</li>
+<li class="menu-item">
+<a href="https://gamepress.gg/arknights/other/galleries">Image Galleries</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<span>Community Links</span>
+<ul class="menu">
+<li class="menu-item">
+<a href="https://www.reddit.com/r/arknights/">Arknights Reddit</a>
+</li>
+<li class="menu-item">
+<a href="/arknights/news/arknights-gamepress-community-discord" title="GamePress Community &amp; Discord" data-drupal-link-system-path="node/11141">GamePress Community &amp; Discord</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div role="document" class="page">
+<header class="gamepress-top-menu">
+<div class="gamepress-top-container">
+<div class="outer-wrapper">
+<div id="site-header">
+<div class="top-logo-container">
+<a class="logo-name-container" href="/arknights/" title="Home" rel="home">
+<img class="site-logo" src="/arknights/sites/arknights/files/Arkgnits-main.jpg" alt="Home" />
+<div class="site-name">Arknights Wiki - GamePress</div>
+</a>
+</div>
+<div class="top-search-menu">
+<div class="block block-views block-views-exposed-filter-blocksite-search-page-1">
+<h2>Search</h2>
+<form class="views-exposed-form" data-drupal-selector="views-exposed-form-site-search-page-1" action="/arknights/search" method="get" id="views-exposed-form-site-search-page-1" accept-charset="UTF-8">
+<div class="form--inline clearfix">
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-query form-item-query form-no-label">
+<input placeholder="Search..." data-drupal-selector="edit-query" data-search-api-autocomplete-search="site_search" class="form-autocomplete form-text" data-autocomplete-path="/arknights/search_api_autocomplete/site_search?display=page_1&amp;&amp;filter=query" type="text" id="edit-query" name="query" value size="30" maxlength="128" />
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-site-search" type="submit" id="edit-submit-site-search" value="Apply" class="button js-form-submit form-submit" />
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="menu-container">
+<div class="menu--top-menu outer-wrapper">
+<div id="side-menu-button" onclick="openNav()"><div class="menu-bars"><i class="fa fa-bars" aria-hidden="true"></i></div><div class="menu-label">Menu</div></div>
+<div class="top-menu"><ul>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2020-01/trophy.png
+
+  )" href="/arknights/tier-list/arknights-operator-tier-list">Tier List</a>
+</li>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2019-11/Arknights_Life.png
+
+  )" href="/arknights/tools/interactive-operator-list">Operators</a>
+</li>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2020-01/dice.png
+
+  )" href="https://gamepress.gg/arknights/tools/arknights-recruitment-tag-filter">Recruit Tool</a>
+</li>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2019-11/redgemSmall_0.png
+
+  )" href="/arknights/tools/summon-simulator">Simulator</a>
+</li>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2020-03/LMDSymbol_1.png
+
+  )" href="/arknights/tools/arknights-operator-planner">Planner</a>
+</li>
+<li>
+<a style="background-image: url( 
+
+            /arknights/sites/arknights/files/2019-06/notebook_0.png
+
+  )" href="/arknights/other/guides">Guides</a>
+</li>
+</ul></div>
+</div>
+</div>
+<div id="top-page-button">
+<i class="fa fa-arrow-up" aria-hidden="true"></i>
+<div class="top-label">Top</div>
+</div>
+<div class="top-mobile-ad">
+<div class="hide-desktop"><center style="margin-bottom: 5px; color: #6b6b6b;"><small>Advertisement</small></center></div>
+
+<div id="div-ad-Arknights_Mobile_320x50_Top">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_320x50_Top'); }); }
+</script>
+</div>
+</div>
+<div class="prom prom-unit-ios">
+<a href="https://touhou.onelink.me/2x69/8357b88d">
+<img src="https://gamepress.gg/sites/default/files/2023-09/PA10F_320x180_iOS.png">
+<small style="text-center"><a href="https://gamepress.gg/lostword/sponsored-disclosure">Sponsored Disclosure</a></small>
+</div>
+<div class="prom prom-unit-android">
+<a href="https://touhou.onelink.me/2x69/8357b88d">
+<img src="https://gamepress.gg/sites/default/files/2023-09/PA10F_320x180_Android.png">
+<small style="text-center"><a href="https://gamepress.gg/lostword/sponsored-disclosure">Sponsored Disclosure</a></small>
+</div>
+</div>
+<div id="bottom-sticky-ad">
+
+<div id="div-ad-Arknights_Mobile_320x50_Floating">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_320x50_Floating'); }); }
+</script>
+</div>
+</div>
+<script>
+
+function decodeHtml(html) {
+    var txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
+}
+
+function getPathByValue(value){
+    for(var i = 0; i < list.length; i++){
+        if(list[i].toLowerCase() == value.toLowerCase()){
+            return paths[i];
+        }
+    }
+}
+/* Set the width of the side navigation to 250px */
+
+function openNav() {
+  var $slider = document.getElementById('sidenav');
+  $slider.setAttribute("class", "slide-in");
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("menu-close").style.display = "block";
+  document.getElementById("bottom-sticky-ad").style.display = "none";
+  document.body.style.overflow = "hidden";
+}
+
+function closeNav() {
+  var $slider = document.getElementById('sidenav');
+  $slider.setAttribute("class", "slide-out");
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("menu-close").style.display = "none";
+  document.getElementById("bottom-sticky-ad").style.display = "block";
+  document.body.style.overflow = "auto";
+}
+
+</script>
+</header>
+<main role="main" class="outer-wrapper">
+<section id="content" class="column-2-setup">
+<div id="content-inner">
+<div id="gamepress-top-content">
+<div class="top-content-brand">GamePress</div>
+<div class="top-ad-desktop">
+
+<div id="div-ad-Arknights_Desktop_Leaderboard_ATF">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Desktop_Leaderboard_ATF'); }); }
+</script>
+</div>
+<style>
+.prom {
+margin-bottom:10px;
+    display: none;
+  }
+  body.mobile.android .prom-unit-android {
+    display: block;
+  }
+  body.mobile.iphone .prom-unit-ios {
+    display: block;
+  }
+  body.mobile.ipad  .prom-unit-ios {
+    display: block;
+  }
+  
+  body.desktop .prom-unit-desktop {
+    display: block;
+  }
+</style>
+<div class="prom prom-unit-desktop">
+<a class href="https://touhou.onelink.me/2x69/8357b88d">
+<img src="https://gamepress.gg/sites/default/files/2023-09/PA10F_729x100.png">
+<small style="text-center"><a href="https://gamepress.gg/lostword/sponsored-disclosure">Sponsored Disclosure</a></small>
+</div>
+</div>
+<div id="page-title">
+<h1>Arknights Wiki - GamePress</h1>
+<div class="title-sub">
+<div class="last-updated-date">
+<time datetime="2023-10-05">Last Updated: October 5, 2023 | </time>
+</div>
+<a target="_blank" href="https://gamepress.atlassian.net/servicedesk/customer/portals">Submit Feedback or Error</a>
+</div>
+</div>
+</div>
+<div class>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA"></span>
+<span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=gamepressbase_local_tasks&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=ge3tvWKt0hYHdhh4o2-bjWqiyV6usjQ70qHU2Q7AAeQ"></span>
+<div id="block-gamepressbase-content" class="block block-system block-system-main-block">
+<article id="node-11" class data-history-node-id="11" role="article" about="/arknights/other/arknights-wiki-gamepress" typeof="schema:WebPage">
+<div class="page-top-content">
+</div>
+<div class="field field--name-field-page-content field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"><span id="topic-1402251">
+<div id="Coming Event Countdown"></div> <h2 class="main-title">Coming Event Countdown</h2>
+<div class="topic-text"> <div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+<div class="field field--name-field-node field--type-entity-reference field--label-hidden field__item"><article id="node-15266" class data-history-node-id="15266" role="article" about="/arknights/node/15266">
+<div class="field field--name-field-content-to-embed field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"> <div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><a href="https://gamepress.gg/arknights/event-banner-hub/episode-12-preview-event-global-event-page">
+<img alt="Ep 12 Tactical Support" data-entity-type="file" data-entity-uuid="8d899a3b-78ad-43f9-bdf5-75f1bfe3bcce" src="https://gamepress.gg/arknights/sites/arknights/files/2023-10/Ep12PrepTacticalSupport.png" class="align-center" /></a>
+
+<div data-countdown-name="Ep 12 Tactical Support" data-countdown-timezone="UTC-0700" data-countdown-start="2023/10/10 10:00:00" data-countdown-end="2023/11/07 03:59:59" data-countdown-start-text="until [Ep 12 Tactical Support] arrives!" data-countdown-during-text=" until [Ep 12 Tactical Support] ends!" data-countdown-after-text="[Ep 12 Tactical Support] has ended!">
+[Ep 12 Tactical Support]
+</div></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+<div class="field field--name-field-node field--type-entity-reference field--label-hidden field__item"><article id="node-15026" class data-history-node-id="15026" role="article" about="/arknights/node/15026">
+<div class="field field--name-field-content-to-embed field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"> <div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+  .countdown-timer {
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+    font-size: 1.5em;
+  }
+
+  .countdown-caption {
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+  }
+
+/*--><!]]>*/
+</style>
+<script>
+<!--//--><![CDATA[// ><!--
+
+  $(document).ready(function() {
+    $("[data-countdown-name]").each(function(index) {
+      let div = $(this);
+      div.text('');
+      let timer = $("<p>").addClass("countdown-timer");
+      let caption = $("<p>").addClass("countdown-caption");
+      div.append(timer).append(caption);
+
+      // Get the dates we're counting down to
+debugger;
+      let timezone = div.data('countdownTimezone') ? div.data('countdownTimezone') : 'UTC-0800';
+      console.log(div.data('countdownTimezone'));
+      let start = new Date(`${div.data('countdownStart')} ${timezone}`);
+      let end = new Date(`${div.data('countdownEnd')} ${timezone}`);
+
+      let countdown_function;
+
+      // Update the count down every 1 second
+      let calculate = function() {
+        let now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        let distanceStart = start - now;
+        let distanceEnd = end - now;
+
+        // Get time between 
+        let [distance, fromStart] = distanceStart < 0 ? [distanceEnd, false] : [distanceStart, true];
+ 
+        // Time calculations for days, hours, minutes and seconds
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        timer.text(
+          `${days} Days, ${hours} Hours ${minutes} Minutes ${seconds} Seconds`
+        );
+        caption.text(fromStart ? div.data('countdownStartText') : div.data('countdownDuringText'));
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(countdown_function);
+          timer.text( div.data('countdownAfterText'));
+          caption.text("");
+        }
+      };
+
+      calculate();
+      countdown_function = setInterval(calculate, 1000);
+    });
+  });
+
+//--><!]]>
+</script>
+</div>
+</div>
+</div>
+</div>
+</article></div>
+</div>
+</div>
+</div>
+</article></div>
+</div>
+<div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+<div class="field field--name-field-node field--type-entity-reference field--label-hidden field__item"><article id="node-15031" class data-history-node-id="15031" role="article" about="/arknights/node/15031">
+<div class="field field--name-field-content-to-embed field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"> <div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><a href="https://gamepress.gg/arknights/event-banner-hub/contingency-contract-season-12-operation-basepoint-global-event-page">
+<img alt="CC #12 [Operation Basepoint]" data-entity-type="file" data-entity-uuid="8d899a3b-78ad-43f9-bdf5-75f1bfe3bcce" src="https://gamepress.gg/arknights/sites/arknights/files/2023-09/CC12BasePoint_0.png" class="align-center" /></a>
+
+<div data-countdown-name="CC #12 [Operation Basepoint]" data-countdown-timezone="UTC-0700" data-countdown-start="2023/10/01 10:00:00" data-countdown-end="2023/10/15 03:59:59" data-countdown-start-text="until [CC #12 [Operation Basepoint]] arrives!" data-countdown-during-text="[CC #12 [Operation Basepoint]] is live!" data-countdown-after-text="[CC #12 [Operation Basepoint]] is gone!">
+CC #12 [Operation Basepoint]
+</div></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+<div class="field field--name-field-node field--type-entity-reference field--label-hidden field__item"><article id="node-15026" class data-history-node-id="15026" role="article" about="/arknights/node/15026">
+<div class="field field--name-field-content-to-embed field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"> <div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+  .countdown-timer {
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+    font-size: 1.5em;
+  }
+
+  .countdown-caption {
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+  }
+
+/*--><!]]>*/
+</style>
+<script>
+<!--//--><![CDATA[// ><!--
+
+  $(document).ready(function() {
+    $("[data-countdown-name]").each(function(index) {
+      let div = $(this);
+      div.text('');
+      let timer = $("<p>").addClass("countdown-timer");
+      let caption = $("<p>").addClass("countdown-caption");
+      div.append(timer).append(caption);
+
+      // Get the dates we're counting down to
+debugger;
+      let timezone = div.data('countdownTimezone') ? div.data('countdownTimezone') : 'UTC-0800';
+      console.log(div.data('countdownTimezone'));
+      let start = new Date(`${div.data('countdownStart')} ${timezone}`);
+      let end = new Date(`${div.data('countdownEnd')} ${timezone}`);
+
+      let countdown_function;
+
+      // Update the count down every 1 second
+      let calculate = function() {
+        let now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        let distanceStart = start - now;
+        let distanceEnd = end - now;
+
+        // Get time between 
+        let [distance, fromStart] = distanceStart < 0 ? [distanceEnd, false] : [distanceStart, true];
+ 
+        // Time calculations for days, hours, minutes and seconds
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        timer.text(
+          `${days} Days, ${hours} Hours ${minutes} Minutes ${seconds} Seconds`
+        );
+        caption.text(fromStart ? div.data('countdownStartText') : div.data('countdownDuringText'));
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(countdown_function);
+          timer.text( div.data('countdownAfterText'));
+          caption.text("");
+        }
+      };
+
+      calculate();
+      countdown_function = setInterval(calculate, 1000);
+    });
+  });
+
+//--><!]]>
+</script>
+</div>
+</div>
+</div>
+</div>
+</article></div>
+</div>
+</div>
+</div>
+</article></div>
+</div>
+</div></span>
+</div>
+<div class="field__item"><span id="topic-1361">
+<h2 class="main-title">Recent News</h2>
+<div class="topic-text"> <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+<div class="field field--name-field-block field--type-block-field field--label-hidden field__item">
+<div class="block block-gamepress-subsite-news block-gamepress-subsite-news-block-full1">
+
+<span id="news-15" />
+<div class="view-feed">
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81351" hreflang="en">Arknights: Interactive Operator List - UPDATE - Episode 13 [The Whirlpool That Is Passion]</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697303425</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/tools/interactive-operator-list#tags=null##cn##stats#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/tools/interactive-operator-list#tags=null##cn##stats">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Feature%20Image%20Operator%20List.jpg?itok=C8SU_m8B" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81336" hreflang="en">Arknights: Furniture Theme List - UPDATE - Episode 13 [The Whirlpool That Is Passion]</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697216496</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/database/furniture-theme-list#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/database/furniture-theme-list">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Feature%20Image%20Furniture%20Themes.png?itok=vvIccBo3" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81331" hreflang="en">Arknights: Module List - UPDATE - Episode 13 [The Whirlpool That Is Passion]</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697151270</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/database/arknights-module-list#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/database/arknights-module-list">
+<img src="/sites/default/files/styles/600x315/public/2023-10/ModuleListFeature.png?itok=rzda4IQA" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81326" hreflang="en">Arknights: Should You Pull? As in My Adumbration: Ines</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697135451</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/should-you-pull/arknights-should-you-pull-my-adumbration-ines#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/should-you-pull/arknights-should-you-pull-my-adumbration-ines">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Ep12AllQuietUnderTheThunderBanner.png?itok=KXj2vYit" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81321" hreflang="en">Arknights: Standard Pool 99</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697134804</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-standard-pool-99#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-standard-pool-99">
+<img src="/sites/default/files/styles/600x315/public/2023-10/SPGBL99.jpg?itok=WpLhkWHp" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<a class="featured-button" href="#news-more">More</a>
+</div>
+</div></div>
+</div>
+</div></span>
+</div>
+<div class="field__item"><span id="topic-1401131">
+<div id="Current Event Countdown"></div> <h2 class="main-title">Current Event Countdown</h2>
+<div class="topic-text"> <div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+</div>
+</div></span>
+</div>
+<div class="field__item">
+<div class="ad-container">
+<div class="desktop-ad">
+<center>
+
+<div id="div-ad-Gamepress_Desktop_728x90_Extra_1">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Gamepress_Desktop_728x90_Extra_1'); }); }
+</script>
+</div>
+</center>
+</div>
+</div>
+<div class="ad-container">
+<div class="mobile-ad">
+
+<center>
+<div id="div-ad-Arknights_Mobile_300x250_BTF_1">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_300x250_BTF_1'); }); }
+</script>
+</div>
+</center>
+</div>
+
+<script type="text/javascript" language="javascript" src="https://live.primis.tech/live/liveView.php?s=102483"></script>
+
+</div>
+</div>
+<div class="field__item"><span id="topic-31301">
+<div class="topic-text"> <div class="paragraph paragraph--type--embedded-node paragraph--view-mode--default">
+<div class="field field--name-field-node field--type-entity-reference field--label-hidden field__item"><article id="node-11441" class data-history-node-id="11441" role="article" about="/arknights/node/11441">
+<div class="field field--name-field-content-to-embed field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"><span id="topic-461421">
+<div class="topic-text"> <div class="paragraph paragraph--type--featured-content paragraph--view-mode--default">
+<div class="featured-1-columns-desktop featured-1-columns-mobile">
+</div>
+</div>
+<div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><h2>What's New?</h2>
+</div>
+</div>
+<div class="paragraph paragraph--type--featured-content paragraph--view-mode--default">
+<div class="featured-2-columns-desktop featured-2-columns-mobile">
+<div class="content-2-group-item ">
+<a href="/arknights/news/arknights-material-farming-efficiency-best-stages-farm" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2022-03/FarmingEfficienciesFeature.png?h=0e4e9e48&amp;itok=7-sWNej6" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/news/arknights-material-farming-efficiency-best-stages-farm"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights: Material Farming Efficiency - Best Stages to Farm</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/arknights-material-drops-and-originite-prime-totals-future-events-and-episodes" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-11/FutureFarming_2.png?h=0e4e9e48&amp;itok=m9N3go4N" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/arknights-material-drops-and-originite-prime-totals-future-events-and-episodes"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights: Material Drops And Originite Prime Totals From Future Events And Episodes</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/other/lore-library" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-09/Lore%20Library%20Feature.png?h=0e4e9e48&amp;itok=5Y1vCaQH" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/other/lore-library"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Lore Library</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/gallery/rhodes-island-experiences" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2021-03/twitter_banner_back_up.jpg?h=97daa7f3&amp;itok=IrumGXDS" width="2912" height="1529" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/gallery/rhodes-island-experiences"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Rhodes Island Experiences</span>
+</a>
+</div>
+</div>
+</div>
+<div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><h2>Guides</h2>
+</div>
+</div>
+<div class="paragraph paragraph--type--featured-content paragraph--view-mode--default">
+<div class="featured-2-columns-desktop featured-2-columns-mobile">
+<div class="content-2-group-item ">
+<a href="/arknights/other/guide-list-core-gameplay" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20Core%20Gameplay_0.png?h=0e4e9e48&amp;itok=6zC1AQWY" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/other/guide-list-core-gameplay"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Guide List - Core Gameplay</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/other/operator-spotlights" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-02/Arknights%20Operator%20Spotlights.png?itok=fuJBkgjN" width="800" height="420" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/other/operator-spotlights"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Operator Spotlights</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/core-gameplay/arknights-operator-recruitment-guide" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-01/Feature%20OG%20Image%20Operator%20Recruitment%20Guide.jpg?h=457da100&amp;itok=d0SxQ9rO" width="1200" height="630" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/core-gameplay/arknights-operator-recruitment-guide"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights: Operator Recruitment Guide</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/core-gameplay/arknights-tips-and-advice-guide-new-doctors" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-01/ArknightsTipsBanner.png?h=be64ab10&amp;itok=ku8JcDLB" width="2560" height="1344" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/core-gameplay/arknights-tips-and-advice-guide-new-doctors"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights: Tips and Advice to Guide New Doctors</span>
+</a>
+</div>
+</div>
+</div>
+<div class="paragraph paragraph--type--text paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-text field--type-text-long field--label-hidden field__item"><h2>Database and Tools</h2>
+</div>
+</div>
+<div class="paragraph paragraph--type--featured-content paragraph--view-mode--default">
+<div class="featured-2-columns-desktop featured-2-columns-mobile">
+<div class="content-2-group-item ">
+<a href="/arknights/tools/arknights-recruitment-tag-filter" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-02/Arknights%20Tag%20Filter%20Banner_0.png?h=ceb20177&amp;itok=x-AlVbmP" width="800" height="420" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/tools/arknights-recruitment-tag-filter"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights Recruitment Tag Filter</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/tools/interactive-operator-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20Operator%20List.jpg?h=457da100&amp;itok=AiuYw7pJ" width="1200" height="630" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/tools/interactive-operator-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Interactive Operator List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/tools/arknights-operator-planner" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20Planner.jpg?h=457da100&amp;itok=foA-Pjh3" width="1200" height="630" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/tools/arknights-operator-planner"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Arknights Operator Planner</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/skin-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20Skin%20List.jpg?h=457da100&amp;itok=ggQbf311" width="1200" height="630" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/skin-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Skin List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/furniture-theme-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20Furniture%20Themes.png?h=0e4e9e48&amp;itok=sbl3cBsJ" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/furniture-theme-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Furniture Theme List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/operator-riic-base-skill-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-03/Feature%20Image%20RIIC%20Base%20Skill%20List_0.png?h=0e4e9e48&amp;itok=8oU4jYJy" width="1800" height="945" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/operator-riic-base-skill-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Operator RIIC Base Skill List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/banner-list-gacha" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2019-11/BannerList_4.png?h=a2a25a3a&amp;itok=TsbHXBCh" width="554" height="291" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/banner-list-gacha"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Banner List (Gacha)</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/other/event-and-campaign-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-02/Arknights%20Events%20and%20Campaigns.png?h=ceb20177&amp;itok=xuou1U2g" width="800" height="420" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/other/event-and-campaign-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Event and Campaign List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/other/cn-event-and-campaign-list" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-04/Arknights%20Tag%20Filter%20Banner.png?h=ceb20177&amp;itok=YfDuiSBE" width="800" height="420" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/other/cn-event-and-campaign-list"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">CN Event and Campaign List</span>
+</a>
+</div>
+<div class="content-2-group-item ">
+<a href="/arknights/database/operator-release-dates-and-how-obtain" hreflang="en"><img src="/arknights/sites/arknights/files/styles/banner_image/public/2020-01/OperatorReleaseDates.png?h=ac8c169a&amp;itok=b3RYxRAf" width="1019" height="535" alt typeof="foaf:Image" class="image-style-banner-image" />
+</a>
+<a class="featured-content-title" href="/arknights/database/operator-release-dates-and-how-obtain"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Operator Release Dates and How to Obtain</span>
+</a>
+</div>
+</div>
+</div>
+</div></span>
+</div>
+</div>
+</article></div>
+</div>
+</div></span>
+</div>
+<div class="field__item">
+<div class="ad-container">
+<div class="desktop-ad">
+<center>
+
+<div id="div-ad-Gamepress_Desktop_728x90_Extra_2">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Gamepress_Desktop_728x90_Extra_2'); }); }
+</script>
+</div>
+</center>
+</div>
+</div>
+<div class="ad-container">
+<div class="mobile-ad">
+<center>
+
+<div id="div-ad-Arknights_Mobile_300x250_BTF_2">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_300x250_BTF_2'); }); }
+</script>
+</div>
+</center>
+</div>
+</div>
+</div>
+<div class="field__item"><span id="topic-511846">
+<h2 class="main-title">More Updates</h2>
+<div class="topic-text"> <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+<div class="field field--name-field-block field--type-block-field field--label-hidden field__item">
+<div class="block block-gamepress-subsite-news block-gamepress-subsite-news-block-full2">
+
+<span id="news-more" />
+<div class="view-feed">
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81311" hreflang="en">Arknights CN: Standard Pool 117</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697049264</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-standard-pool-117#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-standard-pool-117">
+<img src="/sites/default/files/styles/600x315/public/2023-10/SPCN117.jpg?itok=TDH3jOat" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81291" hreflang="en">Arknights: Skin List - UPDATE - Episode 13 [The Whirlpool That Is Passion]</a></div>
+<div class="feed-item-date"><span class="post-created-date">1697000328</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/database/skin-list#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/database/skin-list">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Feature%20Image%20Skin%20List.jpg?itok=PENoOwgv" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81271" hreflang="en">Arknights OST: [Settle Into Ash] Feat. Hoederer</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696877899</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-ost-settle-ash-feat-hoederer#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-ost-settle-ash-feat-hoederer">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Screen%20Shot%202023-10-09%20at%201.53.22%20PM.png?itok=BEv6-99t" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81261" hreflang="en">Arknights CN: Dorothy [Hand of Destiny] Skin Art and Animations!</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696631226</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-dorothy-hand-destiny-skin-art-and-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-dorothy-hand-destiny-skin-art-and-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/DorothySkin.jpeg?itok=wfJnikyu" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81256" hreflang="en">Arknights CN: Fiametta [Divine Oath] Skin Art and Animations!</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696625040</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-fiametta-divine-oath-skin-art-and-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-fiametta-divine-oath-skin-art-and-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/FiammettaSkin.jpeg?itok=QiTsEWC3" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+<div class="paragraph paragraph--type--block paragraph--view-mode--default">
+<div class="field field--name-field-block field--type-block-field field--label-hidden field__item">
+<div class="block block-gamepress-subsite-news block-gamepress-subsite-news-block-full3">
+
+<div class="view-feed">
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81251" hreflang="en">Arknights CN: Summon Simulator - From Gleams And Smoke I Emerge </a></div>
+<div class="feed-item-date"><span class="post-created-date">1696618152</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/tools/summon-simulator#FEAT_CN_10_08_2023#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/tools/summon-simulator#FEAT_CN_10_08_2023">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Episode13TheWhirlpoolThatIsPassionBanner.jpeg?h=f0b2559f&amp;itok=Zw5cY__W" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81246" hreflang="en">Arknights CN: New Operator Announcement - [Hoederer] Talents, Skills, Art, Animations.</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696617552</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-hoederer-talents-skills-art-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-hoederer-talents-skills-art-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/HoedererE2.jpeg?itok=YWPagDsm" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81236" hreflang="en">Arknights: Episode 12 Preview Event - Global Event Page</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696545478</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/event-banner-hub/episode-12-preview-event-global-event-page#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/event-banner-hub/episode-12-preview-event-global-event-page">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Episode12PreviewEventPage-2.png?itok=JUaEwqMr" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81231" hreflang="en">Arknights CN: New Operator Announcement - [Vendela] Talents, Skills, Art, Animations.</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696539392</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-vendela-talents-skills-art-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-vendela-talents-skills-art-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/VendelaE2.jpeg?itok=1kxmuKoh" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81221" hreflang="en">Arknights CN: Banner - Backbone 12</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696438592</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-banner-backbone-12#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-banner-backbone-12">
+<img src="/sites/default/files/styles/600x315/public/2023-10/BackboneCN12.jpeg?itok=NC8unosZ" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+<div class="paragraph paragraph--type--block paragraph--view-mode--default">
+<div class="field field--name-field-block field--type-block-field field--label-hidden field__item">
+<div class="block block-gamepress-subsite-news block-gamepress-subsite-news-block-full4">
+
+<div class="view-feed">
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81216" hreflang="en">Arknights CN: Quercus [The Bard&#039;s Tale] Skin Art and Animations!</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696437462</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-quercus-bards-tale-skin-art-and-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-quercus-bards-tale-skin-art-and-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/QuercusSkin.jpeg?itok=9sqtwEJq" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81211" hreflang="en">Arknights CN: New Operator Announcement - [Verdant] Talents, Skills, Art, Animations.</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696436030</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-verdant-talents-skills-art-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-verdant-talents-skills-art-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/VerdantE2.jpeg?itok=kPyHnRSX" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81206" hreflang="en">Arknights CN: Whisperain [Priory of Abyss ] Skin Art and Animations!</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696352429</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-whisperain-priory-abyss-skin-art-and-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-whisperain-priory-abyss-skin-art-and-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/WhisperainSkin.jpeg?itok=DRxpZpTY" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81201" hreflang="en">Arknights CN: New Operator Announcement - [Delphine] Talents, Skills, Art, Animations.</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696348982</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-delphine-talents-skills-art-animations#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/news/arknights-cn-new-operator-announcement-delphine-talents-skills-art-animations">
+<img src="/sites/default/files/styles/600x315/public/2023-10/DelphineE2.jpeg?itok=t60p-tNm" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-subsite">
+<div class="feed-item-container">
+<article class="feed-item-sub-container">
+<div class="feed-item-left   ">
+<div class="feed-item-category-image"><div class="game-home-feed-container">
+<div class="game-home-feed-image"> <img src="/sites/default/files/styles/30x30/public/2019-06/Arkgnits-main.jpg?itok=FvngSI1A" width="30" height="30" alt="Arknights" title="Arknights" typeof="Image" class="image-style-_0x30" />
+</div>
+<div class="game-home-feed-title">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Arknights</div>
+</div>
+</div></div>
+<div class="feed-item-title"><a href="/node/81196" hreflang="en">Arknights: Episode 13 [The Whirlpool That Is Passion] - CN Event Page</a></div>
+<div class="feed-item-date"><span class="post-created-date">1696289198</span><i class="fa fa-circle" aria-hidden="true"></i><a class="comment-feed-count" href="https://gamepress.gg/arknights/event-banner-hub/episode-13-whirlpool-passion-cn-event-page#commento"></a> <i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+<div class="feed-item-right">
+<a href="https://gamepress.gg/arknights/event-banner-hub/episode-13-whirlpool-passion-cn-event-page">
+<img src="/sites/default/files/styles/600x315/public/2023-10/Episode13TheWhirlpoolThatIsPassionEventPage.png?itok=AC9RzH2R" width="600" height="315" alt typeof="Image" class="image-style-_00x315" />
+</a>
+</div>
+</article>
+</div>
+</div>
+<a class="featured-button" href="https://gamepress.gg/taxonomy/term/1026?page=1">More</a>
+</div>
+</div></div>
+</div>
+</div></span>
+</div>
+<div class="field__item">
+<div class="ad-container">
+<div class="desktop-ad">
+<center>
+
+<div id="div-ad-Gamepress_Desktop_728x90_Extra_4">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Gamepress_Desktop_728x90_Extra_4'); }); }
+</script>
+</div>
+</center>
+</div>
+</div>
+<div class="ad-container">
+<div class="mobile-ad">
+
+<center>
+<div id="div-ad-Arknights_Mobile_300x250_Extra_2">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_300x250_Extra_2'); }); }
+</script>
+</div>
+</center>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="latest-content-main">
+<h2 class="top-content-brand">Latest Content</h2>
+<div class="latest-content-container">
+<p></p>
+<div class="views-element-container"><div class="field--name-field-featured-content-list view view-latest-featured-content view-id-latest_featured_content view-display-id-block_1 js-view-dom-id-cee5cb91487b3895c568b4d823e1ca4452a22b09bd6649788a086cf88d5a3102">
+<div class="view-header">
+<h3>Community Links</h3>
+<p>Want to talk about Arknights? Need help completing any Combat Operations? Consider joining our <a href="https://discord.gg/yq8D9GX">Discord Server</a>!</p>
+<h3>Latest Featured Content</h3>
+</div>
+<div class="view-content">
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-standard-pool-99">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/SPGBL99_0.jpg?itok=8HZHPuYF" width="100" height="40" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights: Standard Pool 99
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/should-you-pull/arknights-should-you-pull-my-adumbration-ines">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/Ep12AllQuietUnderTheThunderBanner.png?itok=5QGe42NX" width="100" height="32" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights: Should You Pull? As in My Adumbration: Ines
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-cn-standard-pool-117">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/SPCN117.jpg?itok=7axoOnFI" width="100" height="77" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights CN: Standard Pool 117
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-ost-settle-ash-feat-hoederer">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/Screen%20Shot%202023-10-09%20at%201.53.22%20PM.png?itok=BBjJegTF" width="100" height="56" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights OST: [Settle Into Ash] Feat. Hoederer
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-cn-dorothy-hand-destiny-skin-art-and-animations">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/DorothySkin_0.jpeg?itok=gviMsQcl" width="100" height="56" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights CN: Dorothy [Hand of Destiny] Skin Art and Animations!
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-cn-new-operator-announcement-hoederer-talents-skills-art-animations">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/HoedererE2_0.jpeg?itok=zF4ScA7b" width="100" height="56" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights CN: New Operator Announcement - [Hoederer] Talents, Skills, Art, Animations.
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/event-banner-hub/episode-12-preview-event-global-event-page">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-03/Episode12PreviewEventPage.png?itok=zqGHVNGJ" width="100" height="53" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Episode 12 Preview Event - Global Event Page
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+<div class="views-row"><div class="views-field views-field-view-node"><span class="field-content"><a href="/arknights/news/arknights-cn-fiammetta-divine-oath-skin-art-and-animations">
+<div class="field__item ">
+<div class="featured-content-list-main ">
+<div class="featured-list-image">
+<img src="/arknights/sites/arknights/files/styles/featured_content_list/public/2023-10/FiammettaSkin_0.jpeg?itok=j53uqX1F" width="100" height="56" alt typeof="Image" class="image-style-featured-content-list" />
+</div>
+<div class="featured-list-link">
+Arknights CN: Fiammetta [Divine Oath] Skin Art and Animations!
+</div>
+</div>
+</div>
+</a></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hide-desktop">
+<div class="bottom-ads-mobile-1">
+<div id="div-ad-Arknights_Mobile_300x250_Extra_3">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_300x250_Extra_3'); }); }
+</script>
+</div></div>
+</div>
+</section>
+<aside id="sidebar-second" role="complementary" class="sidebar">
+
+<div id="mc_embed_signup">
+<h2>Newsletter</h2>
+<div class="newsletter-explanation">Email updates for <b>Arknights</b>. Sign-up for other newsletters <a target="_blank" href="http://eepurl.com/guXugL">here</a>.</div>
+<form action="https://gamepress.us3.list-manage.com/subscribe/post?u=9f1343c259a097bdc976ae488&amp;id=eb29e6cef7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+<input placeholder="Email Address" type="email" value name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group input-group" style="display:none">
+<strong>Games </strong>
+<ul>
+<li><input type="checkbox" value="512" name="group[23193][512]" id="mce-group[23193]-23193-9" checked><label for="mce-group[23193]-23193-9">Arknights</label></li>
+</ul>
+</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div> 
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9f1343c259a097bdc976ae488_eb29e6cef7" tabindex="-1" value></div>
+<div class="clear newsletter-sub-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="featured-button"></div>
+</div>
+</form>
+</div>
+
+<div class="sidebar-1-ad-desktop">
+<div style="margin:10px 0px;" id="div-ad-Arknights_Desktop_RR_A">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Desktop_RR_A'); }); }
+</script>
+</div>
+</div>
+<div id="block-popularpagesshort" class="block block-gamepress-ga-counter block-gamepress-popular-pages-block">
+<div>
+<div class="popular-pages-block popular-block" style="display:block;">
+<h2>Popular Pages Today</h2>
+<ul>
+<li>
+<a href="/arknights/tier-list/arknights-operator-tier-list">
+<span class="pages-ranking-number ranking-number-1">1</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2020-03/Feature%20Image%20Tier%20List.png?itok=Ou2M0qH6" />
+</span>
+<span class="pages-ranking-title">
+Arknights Operator Tier List
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/tools/arknights-recruitment-tag-filter">
+<span class="pages-ranking-number ranking-number-2">2</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2020-02/Arknights%20Tag%20Filter%20Banner_0.png?itok=t0HFI-7d" />
+</span>
+<span class="pages-ranking-title">
+Arknights Recruitment Tag Filter
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/tools/interactive-operator-list">
+<span class="pages-ranking-number ranking-number-3">3</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2020-03/Feature%20Image%20Operator%20List.jpg?itok=H8_Gci8U" />
+</span>
+<span class="pages-ranking-title">
+Interactive Operator List
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/other/cn-event-and-campaign-list">
+<span class="pages-ranking-number ranking-number-4">4</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2020-04/Arknights%20Tag%20Filter%20Banner.png?itok=H_30IGMk" />
+</span>
+<span class="pages-ranking-title">
+CN Event and Campaign List
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/news/arknights-cn-new-operator-announcement-typhon-talents-skills-art-animations">
+<span class="pages-ranking-number ranking-number-5">5</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2023-07/TyphonE2_0.jpeg?itok=N49kPl_z" />
+</span>
+<span class="pages-ranking-title">
+Arknights CN: New Operator Announcement - [Ty...
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/tools/summon-simulator">
+<span class="pages-ranking-number ranking-number-6">6</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2019-11/SummonSim.png?itok=52L1SfHV" />
+</span>
+<span class="pages-ranking-title">
+Summon Simulator
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/tools/arknights-operator-planner">
+<span class="pages-ranking-number ranking-number-7">7</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2020-03/Feature%20Image%20Planner.jpg?itok=Jb9X5jzw" />
+</span>
+<span class="pages-ranking-title">
+Arknights Operator Planner
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/database/banner-list-gacha">
+<span class="pages-ranking-number ranking-number-8">8</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2019-11/BannerList_4.png?itok=j7qXZKon" />
+</span>
+<span class="pages-ranking-title">
+Banner List (Gacha)
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/news/arknights-material-farming-efficiency-best-stages-farm">
+<span class="pages-ranking-number ranking-number-9">9</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2022-03/FarmingEfficienciesFeature.png?itok=VabxzFE1" />
+</span>
+<span class="pages-ranking-title">
+Arknights: Material Farming Efficiency - Best...
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/event-banner-hub/what-firelight-casts-cn-event-page">
+<span class="pages-ranking-number ranking-number-10">10</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/80x40/public/2022-12/WhatTheFirelightCastsEventPage.png?itok=Owcz3INF" />
+</span>
+<span class="pages-ranking-title">
+What The Firelight Casts - CN Event Page
+</span>
+</a>
+</li>
+</ul>
+<div class="view-footer">
+<a href="https://gamepress.gg/arknights/popular-all">See All</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hide-desktop">
+<div class="bottom-ads-mobile-2">
+<div id="div-ad-Arknights_Mobile_300x250_Extra_4">
+<script>
+if(detectWidth() <= 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Mobile_300x250_Extra_4'); }); }
+</script>
+</div>
+</div>
+</div>
+<div class="sidebar-2-ad-desktop">
+<div style="margin-bottom:10px;" id="div-ad-Arknights_Desktop_RR_B">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Desktop_RR_B'); }); }
+</script>
+</div></div>
+<div id="block-popularitemsshort" class="block block-gamepress-ga-counter block-gamepress-popular-items-block">
+<div>
+<div class="popular-items-block popular-block">
+<h2>Popular Operators Today</h2>
+<ul>
+<li>
+<a href="/arknights/operator/typhon">
+<span class="pages-ranking-number ranking-number-1">1</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2023-07/TyphonAvatar.png?itok=wrRerh0s" />
+</span>
+<span class="pages-ranking-title">
+Typhon
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/reed-flame-shadow">
+<span class="pages-ranking-number ranking-number-2">2</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2022-12/%E5%A4%B4%E5%83%8F_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89.png?itok=wEjWeB78" />
+</span>
+<span class="pages-ranking-title">
+Reed The Flame Shadow
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/texas-omertosa">
+<span class="pages-ranking-number ranking-number-3">3</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2022-11/TexalterAvatar.png?itok=A6ljRzH-" />
+</span>
+<span class="pages-ranking-title">
+Texas the Omertosa
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/kaltsit">
+<span class="pages-ranking-number ranking-number-4">4</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2021-05/char_003_kalts.png?itok=rstzaUWN" />
+</span>
+<span class="pages-ranking-title">
+Kal&#039;tsit
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/skadi">
+<span class="pages-ranking-number ranking-number-5">5</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/game-images/avatars/char_263_skadi_1.png?itok=q-y-380r" />
+</span>
+<span class="pages-ranking-title">
+Skadi
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/bagpipe">
+<span class="pages-ranking-number ranking-number-6">6</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2020-03/char_222_bpipe.png?itok=byQ6O7Mj" />
+</span>
+<span class="pages-ranking-title">
+Bagpipe
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/suzuran">
+<span class="pages-ranking-number ranking-number-7">7</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2020-07/char_358_lisa_Icon.png?itok=Zl0pCn-p" />
+</span>
+<span class="pages-ranking-title">
+Suzuran
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/specter-unchained">
+<span class="pages-ranking-number ranking-number-8">8</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2022-05/char_1023_ghost2.png?itok=iM1W5ugw" />
+</span>
+<span class="pages-ranking-title">
+Specter the Unchained
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/elysium">
+<span class="pages-ranking-number ranking-number-9">9</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2020-05/char_401_elysm_1_icon.png?itok=OLtPg6fz" />
+</span>
+<span class="pages-ranking-title">
+Elysium
+</span>
+</a>
+</li>
+<li>
+<a href="/arknights/operator/goldenglow">
+<span class="pages-ranking-number ranking-number-10">10</span>
+<span class="pages-ranking-image">
+<img src="/arknights/sites/arknights/files/styles/thumbnail/public/2022-02/char_377_gdglow.png?itok=sXSFuHqm" />
+</span>
+<span class="pages-ranking-title">
+Goldenglow
+</span>
+</a>
+</li>
+</ul>
+<div class="view-footer">
+<a href="https://gamepress.gg/arknights/popular-operators-all">See All</a>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar-3-ad-desktop">
+<div id="div-ad-Arknights_Desktop_RR_C">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Desktop_RR_C'); }); }
+</script>
+</div></div>
+<div class="hide-desktop">
+</div>
+</aside>
+</main>
+<span class="gp-tier-modal">
+<div id="gp-tier-modal" class="modal">
+
+<div class="modal-content-gp-tier" id="modal-cont-gp-tier">
+<span class="remove" onclick="closeModalGP()"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+<div id="unit-expl-gp"></div>
+</div>
+</div>
+</span>
+<script>
+  var gpLoaded = false;
+    $(document).ready(function() {
+          bindButtons();
+      });
+
+    function bindButtons(){
+      var showButtons = document.getElementsByClassName("show-expl");
+          for(var i = 0; i < showButtons.length; i++){
+            showButtons[i].onclick = showModalGP;
+          }
+    }
+
+    function showModalGP(e){
+      document.getElementById("site-header").style.zIndex = "0";
+      var modal = document.getElementById('gp-tier-modal');
+      if(!modal){
+        return;
+      }
+      var content = $(e.target).data('content');
+      var title = $(e.target).data('title');
+      var titleID = title.replace(":", "");
+      let nid = $(e.target).data("nid");
+      if(nid){
+        titleID = nid;
+      }
+      var explDiv = document.getElementById(titleID + "-expl-container");
+      var text = decodeHtml(explDiv.innerHTML);
+      title = "<div class='expl-title'>" + title + "<\/div>"
+      var modal2 = document.getElementById("unit-expl-gp");
+      modal2.innerHTML = title + text;
+      modal.style.display = "block";
+      gpLoaded = false;
+    }
+
+    function closeModalGP(){
+      var modal = document.getElementById('gp-tier-modal');
+      if(!modal){
+        return;
+      }
+      modal.style.display = "none";
+      gpLoaded = true;
+      document.getElementById("site-header").style.zIndex = "";
+    }
+    $('body').click(function (e) {
+        if(typeof(isDBL) == 'undefined'){
+          var id = e.target.id;
+        var parents = document.getElementById("modal-cont-gp-tier");
+        var modal = document.getElementById("gp-tier-modal");
+        if(!modal){
+          return;
+        }
+        if(modal.style.display == "block" && gpLoaded && !(parents.contains(e.target))){
+          modal.style.display = "none";
+          document.getElementById("site-header").style.zIndex = "";
+          gpLoaded = false;
+        }
+        else{
+          gpLoaded = true;
+        }
+      }
+      function decodeHtml(html) {
+        var txt = document.createElement("textarea");
+        txt.innerHTML = html;
+        return txt.value;
+    }
+
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".post-created-date").each(function(){
+      var postTime = $(this).html();
+      postTime = parseInt(postTime);
+      var postDate = new Date(postTime*1000);
+      var timeAgo = timeSince(postDate) ;
+      $(this).html(timeAgo);
+      $(this).show();
+    })
+  });
+  function checkPlural(number, suffix){
+    if(number == 0){
+      return "";
+    }
+
+    if(number == 1){
+      return number + " " + suffix;
+    }
+
+    return number + " " + suffix + "s";
+  }
+  function timeSince(timeStamp) {
+      var now = new Date(),
+    secondsPast = (now.getTime() - timeStamp.getTime()) / 1000;
+
+    var ending = " ago";
+    if(secondsPast < 0){
+      ending = " hence";
+      secondsPast = secondsPast * -1;
+    }
+    secondsPast = Math.round(secondsPast);
+    var returnString = "";
+    var secondsInDay = 86400;
+    // start counting weeks after 2 weeks
+    var secondsIn2Weeks = secondsInDay * 14;
+    var secondsInWeek = secondsInDay * 7;
+    var secondsInHour = 3600;
+    var secondsInMinute = 60;
+
+    //only seconds
+      if(secondsPast < secondsInMinute){
+        var secondsString = checkPlural(secondsPast, 'second');
+        return secondsString + ending;
+      }
+
+      //seconds + minutes
+      if(secondsPast < secondsInHour){
+        var minutes = parseInt(secondsPast/secondsInMinute);
+        var seconds = parseInt(secondsPast % secondsInMinute)
+        var minutesString = checkPlural(minutes, 'minute');
+        var secondsString = checkPlural(seconds, 'second');
+        returnString += minutesString;
+        // uncomment to increase granularity by 1
+        // if(secondsString){
+        //   returnString += " " + secondsString;
+        // }
+        return returnString + ending;
+      }
+
+      //hrs minutes
+      if(secondsPast <= secondsInDay){
+        var hours = parseInt(secondsPast / secondsInHour);
+        var minutes = Math.floor(parseInt(secondsPast % secondsInHour) / secondsInMinute);
+        var hoursString = checkPlural(hours, 'hour');
+        var minutesString = checkPlural(minutes, 'minute');
+        returnString += hoursString;
+        // uncomment to increase granularity by 1
+        // if(minutesString){
+        //   returnString += " " + minutesString;
+        // }
+        return returnString + ending;
+      }
+
+      //days hrs
+      // change conditionals to secondsIn2Weeks if we don't want to start counting weeks until the second week
+      if(secondsPast < secondsInWeek){
+        var days = parseInt(secondsPast / secondsInDay);
+          var hours = Math.floor(parseInt(secondsPast % secondsInDay) / secondsInHour) ;
+        var daysString = checkPlural(days, 'day');
+        var hoursString = checkPlural(hours, 'hour');
+        returnString += daysString;
+        // uncomment to increase granularity by 1
+        // if(hoursString){
+        //   returnString += " " + hoursString;
+        // }
+        return returnString + ending;
+      }
+      // TODO in case we also want weeks, months, years, etc.
+      if(secondsPast > secondsInWeek){
+        var weeks = parseInt(secondsPast / secondsInWeek);
+        var days = Math.floor(parseInt(secondsPast % secondsInWeek) / secondsInDay) ;
+        var weeksString = checkPlural(weeks, 'week');
+        var daysString = checkPlural(days, 'day');
+        returnString += weeksString;
+        // uncomment to increase granularity by 1
+        // if(daysString){
+        //   returnString += " " + daysString;
+        // }
+        return returnString + ending;
+      }
+    }
+  </script>
+<footer id="site-footer">
+<div class="outer-wrapper">
+<section class="footer-top">
+
+<div id="div-ad-Arknights_Desktop_Leaderboard_BTF">
+<script>
+if(detectWidth() > 980) { googletag.cmd.push(function() { googletag.display('div-ad-Arknights_Desktop_Leaderboard_BTF'); }); }
+</script>
+</div>
+</section>
+<section class="footer-bottom">
+<a class="footer-logo" href="https://gamepress.gg" target="_blank"><img src="https://gamepress.gg/GamePressNewLogo.png"></a>
+<div class="footer-links">
+<ul>
+<li><a href="https://gamepress.gg/disclaimer" target="_blank">Disclaimer</a></li>
+<li><a href="https://gamepress.gg/privacy-policy" target="_blank">Privacy Policy</a></li>
+<li><a href="https://gamepress.gg/terms-of-use" target="_blank">Terms of Use</a></li>
+<li><a href="/cdn-cgi/l/email-protection#a6c5c9c8d2c7c5d2e6c1c7cbc3d6d4c3d5d588c1c1" target="_blank">Contact Us</a></li>
+</ul>
+</div>
+<div class="footer-dots">
+<i class="fa fa-circle" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+</div>
+<div class="footer-copyright">
+<p>Copyright (C) GamePress All Rights Reserved.</p>
+</div>
+<div class="footer-copyright">
+<p></p>
+</div>
+</section>
+</div>
+</footer>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/arknights\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/11","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"big_pipe\/big_pipe,browserclass\/global-browserclass,classy\/base,classy\/messages,core\/drupal.collapse,core\/html5shiv,core\/normalize,gamepressbase\/global-scripts,gamepressbase\/global-styling,google_analytics\/google_analytics,main\/global-scripts,main\/global-styling,main\/js-header,node\/drupal.node,paragraphs\/drupal.paragraphs.unpublished,poll\/drupal.poll-links,search_api_autocomplete\/search_api_autocomplete,system\/base,views\/views.module","theme":"gamepressbase","theme_token":null},"ajaxTrustedUrl":{"\/arknights\/search":true},"bigPipePlaceholderIds":{"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=gamepressbase_local_tasks\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=ge3tvWKt0hYHdhh4o2-bjWqiyV6usjQ70qHU2Q7AAeQ":true,"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"search_api_autocomplete":{"site_search":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"b4f397a0fdfb00e654f320bbf9fb1d9a4422f8c7fb74797bb8e0528231fa271a"}}</script>
+<script src="/arknights/sites/arknights/files/js/js_kSEyb_Yk5O8ce7gfVG_f-sl9l4SHIEgPySl9wwD21eg.js"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=gamepressbase_local_tasks&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=ge3tvWKt0hYHdhh4o2-bjWqiyV6usjQ70qHU2Q7AAeQ">
+    [{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=gamepressbase_local_tasks\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=ge3tvWKt0hYHdhh4o2-bjWqiyV6usjQ70qHU2Q7AAeQ\u0022]","data":"","settings":null}]
+    </script> <script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+    [{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+    </script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"48befe3114","applicationID":"56773492","transactionName":"MQdVN0FSWRVSAhIKWghNdgBHWlgIHCUUFkUHDmsNXFdSOnAOCBdHCQ5bBkFveQlXBDAKUBEhWA1HQVgKXwQUTgsQC1IU","queueTime":3,"applicationTime":419,"atts":"HUBWQQlIShs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
