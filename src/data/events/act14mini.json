@@ -1,0 +1,2252 @@
+{
+    "missions": [],
+    "stages": [
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_01-10",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_01",
+            "levelId": "Activities/act14mini/level_act14mini_01",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-1",
+            "name": "\u672a\u7adf\u957f\u8def",
+            "description": "\u65e0\u5fc3\u7684\u5668\u4f25\u4e0d\u77e5\u75b2\u5026\u5730\u5411\u524d\uff0c\u800c\u66fe\u7ecf\u6ee1\u6000\u610f\u6c14\u7684\u884c\u4eba\u56e0\u4f55\u53d8\u5f97\u8e1f\u8e70\uff1f",
+            "hardStagedId": "act14mini_01#f#",
+            "dangerLevel": "LV.20",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_IW_Town",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 9,
+            "apFailReturn": 8,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 90,
+            "goldGain": 90,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 8,
+            "completeFavor": 9,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_01",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_01#f#",
+            "levelId": "Activities/act14mini/level_act14mini_01",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-1",
+            "name": "\u672a\u7adf\u957f\u8def",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u654c\u4eba\u5355\u4f4d\u7684\u751f\u547d\u503c\u5927\u5e45\u5ea6\u63d0\u5347",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_IW_Town",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 9,
+            "apFailReturn": 4,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 90,
+            "goldGain": 90,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 4,
+            "completeFavor": 9,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_01",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_02",
+            "levelId": "Activities/act14mini/level_act14mini_02",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-2",
+            "name": "\u5954\u7a81\u96be\u6b62",
+            "description": "\u662f\u77ed\u89c6\u8ba9\u4ed6\u4eec\u770b\u4e0d\u6e05\u51fa\u8def\u5c31\u5728\u8eab\u540e\uff0c\u8fd8\u662f\u66f4\u5927\u7684\u836b\u7ff3\u8ba9\u4ed6\u4eec\u4e0d\u6562\u56de\u5934\uff0c\u65e0\u6cd5\u8f6c\u8eab\uff1f",
+            "hardStagedId": "act14mini_02#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.1",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_LM_day",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 9,
+            "apFailReturn": 8,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 90,
+            "goldGain": 90,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 8,
+            "completeFavor": 9,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_02",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_02#f#",
+            "levelId": "Activities/act14mini/level_act14mini_02",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-2",
+            "name": "\u5954\u7a81\u96be\u6b62",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u51fa\u73b0\u989d\u5916\u654c\u4eba",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_LM_day",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 9,
+            "apFailReturn": 4,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 90,
+            "goldGain": 90,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 4,
+            "completeFavor": 9,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_02",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_03",
+            "levelId": "Activities/act14mini/level_act14mini_03",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-3",
+            "name": "\u6c34\u6da8\u6c60\u6df1",
+            "description": "\u90a3\u4e9b\u4f60\u672a\u66fe\u7559\u610f\u7684\u5730\u65b9\u85cf\u4e86\u4ec0\u4e48\uff0c\u4f60\u8fdf\u65e9\u4f1a\u77e5\u9053\u3002\u6ca1\u6709\u4eba\u80fd\u6c38\u8fdc\u7ad9\u5728\u5cb8\u4e0a\u3002\\n<@lv.item><\u6df1\u6c34\u533a></>\u65e0\u6cd5\u90e8\u7f72\uff0c\u5176\u4e2d\u7684\u654c\u65b9\u653b\u51fb\u901f\u5ea6\u548c\u79fb\u52a8\u901f\u5ea6\u964d\u4f4e\uff0c\u6301\u7eed\u6d41\u5931\u751f\u547d",
+            "hardStagedId": "act14mini_03#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.35",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Bolivar_street",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 12,
+            "apFailReturn": 11,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 11,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALMOST",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_03",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_03#f#",
+            "levelId": "Activities/act14mini/level_act14mini_03",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-3",
+            "name": "\u6c34\u6da8\u6c60\u6df1",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u6df1\u6c34\u533a>\u4e2d\u7684\u654c\u4eba\u4e0d\u518d\u6d41\u5931\u751f\u547d",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Bolivar_street",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 12,
+            "apFailReturn": 6,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 6,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_03",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_04",
+            "levelId": "Activities/act14mini/level_act14mini_04",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-4",
+            "name": "\u65e0\u4ece\u9003\u9038",
+            "description": "\u5927\u591a\u6570\u4eba\u5e76\u4e0d\u89c9\u5f97\u81ea\u5df1\u8eab\u5904\u89c4\u5219\u4e4b\u4e2d\uff0c\u89c4\u5219\u4ece\u6765\u90fd\u662f\u4e3a\u4e86\u90a3\u4e9b\u201c\u4e0d\u542c\u8bdd\u201d\u7684\u4eba\u800c\u5b58\u5728\u3002",
+            "hardStagedId": "act14mini_04#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.70",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_LM_night",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 12,
+            "apFailReturn": 11,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 11,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALMOST",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_04",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_04#f#",
+            "levelId": "Activities/act14mini/level_act14mini_04",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-4",
+            "name": "\u65e0\u4ece\u9003\u9038",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u5c04\u624b>\u83b7\u5f97\u9690\u533f\u6548\u679c",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_LM_night",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 12,
+            "apFailReturn": 6,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 6,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_04",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_05",
+            "levelId": "Activities/act14mini/level_act14mini_05",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-5",
+            "name": "\u4e14\u505c\u4e14\u884c",
+            "description": "\u8def\u4e0d\u4f1a\u53d8\u77ed\uff0c\u4f46\u4e00\u7a0b\u4e00\u7a0b\u5730\u8d70\uff0c\u603b\u4f1a\u66f4\u5bb9\u6613\u62b5\u8fbe\u3002",
+            "hardStagedId": "act14mini_05#f#",
+            "dangerLevel": "\u7cbe\u82f12 LV.1",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_graduate",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 15,
+            "apFailReturn": 14,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 150,
+            "goldGain": 150,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 14,
+            "completeFavor": 15,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30032",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30032",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "CARD_EXP",
+                        "id": "2001",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30022",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30042",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30052",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "CARD_EXP",
+                        "id": "2002",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_05",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_05#f#",
+            "levelId": "Activities/act14mini/level_act14mini_05",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-5",
+            "name": "\u4e14\u505c\u4e14\u884c",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u8428\u5361\u5179\u5bbf\u4e3b\u767e\u592b\u957f>\u7684\u653b\u51fb\u529b\u63d0\u5347",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_graduate",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 15,
+            "apFailReturn": 7,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 150,
+            "goldGain": 150,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 7,
+            "completeFavor": 15,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_05",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_06",
+            "levelId": "Activities/act14mini/level_act14mini_06",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-6",
+            "name": "\u67af\u751f",
+            "description": "\u4f60\u5c06\u5982\u4f55\u5bf9\u5f85\u4ec7\u6068\uff1f\u67af\u840e\u7684\u6811\u5e72\u4e5f\u4f1a\u518d\u957f\u51fa\u679d\u53f6\uff0c\u8363\u67af\u53ea\u662f\u8868\u8c61\uff0c\u8bb0\u5f97\u65a9\u65ad\u5b83\u4eec\u7684\u6839\u82d7\u3002",
+            "hardStagedId": "act14mini_06#f#",
+            "dangerLevel": "\u7cbe\u82f12 LV.10",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_VC_harbor",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 15,
+            "apFailReturn": 14,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 150,
+            "goldGain": 150,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 14,
+            "completeFavor": 15,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30012",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30012",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "3003",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30012",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30032",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30062",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_06",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_06#f#",
+            "levelId": "Activities/act14mini/level_act14mini_06",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-6",
+            "name": "\u67af\u751f",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u8428\u5361\u5179\u5b50\u88d4\u8865\u7ed9\u8f66>\u5bf9\u91cd\u751f\u9020\u7269\u7684\u653b\u51fb\u529b\u52a0\u6210\u6548\u679c\u63d0\u5347",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_VC_harbor",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 15,
+            "apFailReturn": 7,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 150,
+            "goldGain": 150,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 7,
+            "completeFavor": 15,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_06",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_07",
+            "levelId": "Activities/act14mini/level_act14mini_07",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-7",
+            "name": "\u51bb\u571f\u575a\u77f3",
+            "description": "\u82e6\u96be\u4e0d\u66fe\u6467\u6bc1\u8fd9\u7247\u82e6\u5bd2\u7684\u571f\u5730\uff0c\u4f34\u968f\u5b83\u4eec\u800c\u751f\u7684\uff0c\u662f\u4ee4\u4eba\u656c\u754f\u7684\u575a\u5b9a\u610f\u5fd7\u3002\\n<@lv.item><\u9053\u8def\u969c\u788d\u7269></>\u53ef\u4ee5\u963b\u6321\u4e4c\u8428\u65af\u5e73\u6c11\u4e0e\u6597\u58eb\u5854\u9732\u62c9\u524d\u8fdb\uff0c\u53ef\u88ab\u6211\u65b9\u5355\u4f4d\u51fb\u6bc1\\n<@lv.item><\u4e4c\u8428\u65af\u5e73\u6c11></>\u88ab\u654c\u4eba\u51fb\u6740\u65f6\u6263\u9664\u5173\u5361\u751f\u547d\u503c",
+            "hardStagedId": "act14mini_07#f#",
+            "dangerLevel": "\u7cbe\u82f12 LV.15",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_iceforest_2",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 21,
+            "apFailReturn": 20,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 210,
+            "goldGain": 210,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 20,
+            "completeFavor": 21,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30033",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30033",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30012",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30062",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30013",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30063",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30073",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "31013",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "3003",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_07",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_07#f#",
+            "levelId": "Activities/act14mini/level_act14mini_07",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-7",
+            "name": "\u51bb\u571f\u575a\u77f3",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u5e1d\u56fd\u524d\u950b\u7cbe\u9510>\u7684\u653b\u51fb\u529b\u548c\u751f\u547d\u503c\u63d0\u5347",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_iceforest_2",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 21,
+            "apFailReturn": 10,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 210,
+            "goldGain": 210,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 10,
+            "completeFavor": 21,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_07",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_08",
+            "levelId": "Activities/act14mini/level_act14mini_08",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-8",
+            "name": "\u785d\u70df\u56db\u8d77",
+            "description": "\u785d\u70df\u5c06\u4f1a\u5f25\u6f2b\u5411\u4f55\u5904\uff0c\u53d6\u51b3\u4e8e\u90a3\u4e9b\u51dd\u89c6\u7740\u6218\u573a\u7684\u773c\u775b\uff0c\u53c8\u5c06\u76ee\u5149\u6295\u5411\u4e86\u54ea\u91cc\u3002",
+            "hardStagedId": "act14mini_08#f#",
+            "dangerLevel": "\u7cbe\u82f12 LV.25",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_victoria",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 21,
+            "apFailReturn": 20,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 210,
+            "goldGain": 210,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 20,
+            "completeFavor": 21,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30093",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "SPECIAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30093",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30031",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "OFTEN",
+                        "type": "MATERIAL",
+                        "id": "30051",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30032",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30052",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30033",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30053",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30093",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "31033",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "30103",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "31053",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "SOMETIMES",
+                        "type": "MATERIAL",
+                        "id": "31043",
+                        "dropType": "ADDITIONAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act14mini_08",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act14mini_08#f#",
+            "levelId": "Activities/act14mini/level_act14mini_08",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-8",
+            "name": "\u785d\u70df\u56db\u8d77",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n<\u201c\u7687\u5e1d\u7684\u5229\u5203\u201d>\u91ca\u653e\u3010\u56fd\u5ea6\u3011\u6240\u9700\u635f\u5931\u751f\u547d\u503c\u964d\u4f4e",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_victoria",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 21,
+            "apFailReturn": 10,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 210,
+            "goldGain": 210,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 10,
+            "completeFavor": 21,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "FURN",
+                        "id": "furni_dropS034_extraterrestrial_01",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "FURN",
+                        "id": "furni_dropS034_extraterrestrial_01",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act14mini_token_fu",
+                        "dropType": "ONCE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_03",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_s01",
+            "levelId": "Activities/act14mini/level_act14mini_sub-1-1",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-S-1",
+            "name": "\u6c34\u60a0\u60a0",
+            "description": "\u6c5f\u6c34\u60a0\u60a0\uff0c\u4f3c\u4e4e\u4ece\u672a\u6d41\u8f6c\u3002\u82e5\u56e0\u5584\u6076\u96be\u65ad\u800c\u9021\u5de1\u4e0d\u524d\uff0c\u5979\u8d70\u4e0d\u51fa\u8fd9\u4e48\u8fdc\u7684\u8def\u3002\\n<@lv.item><\u56fa\u5b9a\u7f16\u961f></>\u4f7f\u7528\u56fa\u5b9a\u5e72\u5458\u8fdb\u884c\u4f5c\u6218\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Day",
+            "canPractice": false,
+            "canBattleReplay": false,
+            "apCost": 0,
+            "apFailReturn": 0,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": -1,
+            "dailyStageDifficulty": 0,
+            "expGain": 0,
+            "goldGain": 0,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 0,
+            "completeFavor": 0,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": true,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act14mini_08",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act14mini_s02",
+            "levelId": "Activities/act14mini/level_act14mini_sub-2-1",
+            "zoneId": "act14mini_zone1",
+            "code": "DC-S-2",
+            "name": "\u8def\u8fe2\u8fe2",
+            "description": "\u5c71\u9053\u8fe2\u8fe2\uff0c\u9a70\u9053\u873f\u8712\u7740\u624e\u5411\u8352\u91ce\u6df1\u5904\u3002\u957f\u884c\u4e0d\u6613\uff0c\u4f46\u8fd9\u4e0d\u662f\u5750\u89c6\u5c71\u584c\u8def\u9677\u7684\u7406\u7531\u3002\\n<@lv.item><\u56fa\u5b9a\u7f16\u961f></>\u4f7f\u7528\u56fa\u5b9a\u5e72\u5458\u8fdb\u884c\u4f5c\u6218",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_IW_Mountain",
+            "canPractice": false,
+            "canBattleReplay": false,
+            "apCost": 0,
+            "apFailReturn": 0,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": -1,
+            "dailyStageDifficulty": 0,
+            "expGain": 0,
+            "goldGain": 0,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 0,
+            "completeFavor": 0,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": true,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act14mini_01",
+            "extraCondition": null,
+            "extraInfo": null
+        }
+    ]
+}

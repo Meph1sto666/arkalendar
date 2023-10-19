@@ -1,39 +1,30 @@
 {
     "missions": [
         {
-            "id": "23sideActivity_1",
+            "id": "9sreActivity_1",
             "sortId": 1,
-            "description": "\u901a\u5173WB-1",
+            "description": "\u901a\u5173WR-1",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_01",
+                "1",
+                "act16d5_01",
+                "1",
                 "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 50
-                },
-                {
-                    "type": "FURN",
-                    "id": "furni_martialClub_drum_01",
-                    "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u201c\u9f13\u58f0\u4e89\u9e23\u201d",
-                    "count": 0
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 40
                 }
             ],
             "backImagePath": null,
@@ -41,39 +32,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_2",
+            "id": "9sreActivity_2",
             "sortId": 2,
-            "description": "\u901a\u5173WB-2",
+            "description": "\u901a\u5173WR-2",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_02",
+                "1",
+                "act16d5_02",
+                "1",
                 "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 50
-                },
-                {
-                    "type": "FURN",
-                    "id": "furni_martialClub_floorLamp_01",
-                    "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u201c\u7ec8\u89c9\u6d45\u201d",
-                    "count": 0
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 40
                 }
             ],
             "backImagePath": null,
@@ -81,39 +63,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_3",
+            "id": "9sreActivity_3",
             "sortId": 3,
-            "description": "\u901a\u5173WB-3",
+            "description": "\u901a\u5173WR-3",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_03",
+                "1",
+                "act16d5_03",
+                "1",
                 "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 50
-                },
-                {
-                    "type": "FURN",
-                    "id": "furni_martialClub_chair_01",
-                    "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u201c\u51a5\u5fc3\u5750\u5fd8\u201d",
-                    "count": 0
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
                 }
             ],
             "backImagePath": null,
@@ -121,39 +94,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_4",
+            "id": "9sreActivity_4",
             "sortId": 4,
-            "description": "\u901a\u5173WB-4",
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-3",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_04",
-                "2"
+                "1",
+                "act16d5_03",
+                "1",
+                "3"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 70
-                },
-                {
                     "type": "FURN",
-                    "id": "furni_martialClub_wallpaper_01",
+                    "id": "furni_inkArt_rollerBlind2_01",
                     "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u201c\u4e14\u53bb\u4e5f\u201d",
-                    "count": 0
                 }
             ],
             "backImagePath": null,
@@ -161,39 +125,35 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_5",
+            "id": "9sreActivity_5",
             "sortId": 5,
-            "description": "\u901a\u5173WB-5",
+            "description": "\u901a\u5173WR-4",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_05",
+                "1",
+                "act16d5_04",
+                "1",
                 "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 70
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
                 },
                 {
                     "type": "CHAR",
-                    "id": "char_4078_bdhkgt",
+                    "id": "char_1011_lava2",
                     "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u622a\u4e91",
-                    "count": 0
                 }
             ],
             "backImagePath": null,
@@ -201,29 +161,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_6",
+            "id": "9sreActivity_6",
             "sortId": 6,
-            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WB-5",
+            "description": "\u901a\u5173WR-5",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_05",
-                "3"
+                "1",
+                "act16d5_05",
+                "1",
+                "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "MATERIAL",
-                    "id": "mod_unlock_token",
-                    "count": 1
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
                 }
             ],
             "backImagePath": null,
@@ -231,39 +192,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_7",
+            "id": "9sreActivity_7",
             "sortId": 7,
-            "description": "\u901a\u5173WB-6",
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-5",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_06",
-                "2"
+                "1",
+                "act16d5_05",
+                "1",
+                "3"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                },
-                {
                     "type": "FURN",
-                    "id": "furni_martialClub_floor_01",
+                    "id": "furni_inkArt_rollerBlind1_01",
                     "count": 1
-                },
-                {
-                    "type": "NONE",
-                    "id": "\u201c\u5ff5\u5f52\u4eba\u201d",
-                    "count": 0
                 }
             ],
             "backImagePath": null,
@@ -271,29 +223,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_8",
+            "id": "9sreActivity_8",
             "sortId": 8,
-            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WB-6",
+            "description": "\u901a\u5173WR-6",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_06",
-                "3"
+                "1",
+                "act16d5_06",
+                "1",
+                "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "FURN",
-                    "id": "furni_martialClub_plantShelf_01",
-                    "count": 1
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
                 }
             ],
             "backImagePath": null,
@@ -301,29 +254,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_9",
+            "id": "9sreActivity_9",
             "sortId": 9,
-            "description": "\u901a\u5173WB-7",
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-6",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_07",
-                "2"
+                "1",
+                "act16d5_06",
+                "1",
+                "3"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 100
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
                 }
             ],
             "backImagePath": null,
@@ -331,29 +285,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_10",
+            "id": "9sreActivity_10",
             "sortId": 10,
-            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WB-7",
+            "description": "\u901a\u5173WR-7",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_07",
-                "3"
+                "1",
+                "act16d5_07",
+                "1",
+                "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "FURN",
-                    "id": "furni_martialClub_pillar_01",
-                    "count": 1
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 80
                 }
             ],
             "backImagePath": null,
@@ -361,29 +316,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_11",
+            "id": "9sreActivity_11",
             "sortId": 11,
-            "description": "\u901a\u5173WB-8",
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-7",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_08",
-                "2"
+                "1",
+                "act16d5_07",
+                "1",
+                "3"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 100
+                    "type": "FURN",
+                    "id": "furni_inkArt_wallpaper_01",
+                    "count": 1
                 }
             ],
             "backImagePath": null,
@@ -391,29 +347,30 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_12",
+            "id": "9sreActivity_12",
             "sortId": 12,
-            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WB-8",
+            "description": "\u901a\u5173WR-8",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_08",
-                "3"
+                "1",
+                "act16d5_08",
+                "1",
+                "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
-                    "type": "FURN",
-                    "id": "furni_martialClub_washtub_01",
-                    "count": 1
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 80
                 }
             ],
             "backImagePath": null,
@@ -421,328 +378,29 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_13",
+            "id": "9sreActivity_13",
             "sortId": 13,
-            "description": "\u901a\u5173WB-9",
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-8",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
+            "template": "CompleteStageAct",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_09",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 100
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_14",
-            "sortId": 14,
-            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WB-9",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_09",
+                "1",
+                "act16d5_08",
+                "1",
                 "3"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "MATERIAL",
-                    "id": "mod_unlock_token",
-                    "count": 1
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_15",
-            "sortId": 15,
-            "description": "\u901a\u5173WB-EX-1",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex01",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 60
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_16",
-            "sortId": 16,
-            "description": "\u901a\u5173WB-EX-2",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex02",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 60
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_17",
-            "sortId": 17,
-            "description": "\u901a\u5173WB-EX-3",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex03",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_18",
-            "sortId": 18,
-            "description": "\u901a\u5173WB-EX-4",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex04",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_19",
-            "sortId": 19,
-            "description": "\u901a\u5173WB-EX-5",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex05",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_20",
-            "sortId": 20,
-            "description": "\u901a\u5173WB-EX-6",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex06",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_21",
-            "sortId": 21,
-            "description": "\u901a\u5173WB-EX-7",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex07",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 100
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_22",
-            "sortId": 22,
-            "description": "\u901a\u5173WB-EX-8",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex08",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 100
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_23",
-            "sortId": 23,
-            "description": "\u901a\u5173WB-EX-8\u7a81\u88ad\u6a21\u5f0f",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteAnyStage",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_ex08#f#",
-                "2"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "FURN",
-                    "id": "furni_dropS025_cnKnot_01",
+                    "id": "furni_inkArt_floor_01",
                     "count": 1
                 }
             ],
@@ -751,58 +409,29 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_24",
-            "sortId": 24,
-            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536115\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
+            "id": "9sreActivity_14",
+            "sortId": 14,
+            "description": "\u901a\u5173WR-9",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
             "template": "CompleteStageAct",
-            "templateType": "0",
+            "templateType": "1",
             "param": [
-                "0",
-                "act23side_01^act23side_02^act23side_03^act23side_04^act23side_05^act23side_06^act23side_07^act23side_08^act23side_09^act23side_ex01^act23side_ex01#f#^act23side_ex02^act23side_ex02#f#^act23side_ex03^act23side_ex03#f#^act23side_ex04^act23side_ex04#f#^act23side_ex05^act23side_ex05#f#^act23side_ex06^act23side_ex06#f#^act23side_ex07^act23side_ex07#f#^act23side_ex08^act23side_ex08#f#",
-                "15"
+                "1",
+                "act16d5_09",
+                "1",
+                "2"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 80
-                }
-            ],
-            "backImagePath": null,
-            "foldId": null,
-            "haveSubMissionToUnlock": false
-        },
-        {
-            "id": "23sideActivity_25",
-            "sortId": 25,
-            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536145\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
-            "type": "ACTIVITY",
-            "itemBgType": "COMMON",
-            "preMissionIds": null,
-            "template": "CompleteStageAct",
-            "templateType": "0",
-            "param": [
-                "0",
-                "act23side_01^act23side_02^act23side_03^act23side_04^act23side_05^act23side_06^act23side_07^act23side_08^act23side_09^act23side_ex01^act23side_ex01#f#^act23side_ex02^act23side_ex02#f#^act23side_ex03^act23side_ex03#f#^act23side_ex04^act23side_ex04#f#^act23side_ex05^act23side_ex05#f#^act23side_ex06^act23side_ex06#f#^act23side_ex07^act23side_ex07#f#^act23side_ex08^act23side_ex08#f#",
-                "45"
-            ],
-            "unlockCondition": null,
-            "unlockParam": null,
-            "missionGroup": "act23side",
-            "toPage": null,
-            "periodicalPoint": 0,
-            "rewards": [
-                {
-                    "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
+                    "id": "act16d5_token_inker_rep_1",
                     "count": 100
                 }
             ],
@@ -811,9 +440,381 @@
             "haveSubMissionToUnlock": false
         },
         {
-            "id": "23sideActivity_26",
+            "id": "9sreActivity_15",
+            "sortId": 15,
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-9",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_09",
+                "1",
+                "3"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "FURN",
+                    "id": "furni_inkArt_aquarium_01",
+                    "count": 1
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_16",
+            "sortId": 16,
+            "description": "\u901a\u5173WR-10",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_10",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 100
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_17",
+            "sortId": 17,
+            "description": "\u4ee53\u661f\u8bc4\u4ef7\u5b8c\u6210WR-10",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_10",
+                "1",
+                "3"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "FURN",
+                    "id": "furni_inkArt_bed_01",
+                    "count": 1
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_18",
+            "sortId": 18,
+            "description": "\u901a\u5173WR-EX-1",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex01",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 40
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_19",
+            "sortId": 19,
+            "description": "\u901a\u5173WR-EX-2",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex02",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 40
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_20",
+            "sortId": 20,
+            "description": "\u901a\u5173WR-EX-3",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex03",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_21",
+            "sortId": 21,
+            "description": "\u901a\u5173WR-EX-4",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex04",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_22",
+            "sortId": 22,
+            "description": "\u901a\u5173WR-EX-5",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex05",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_23",
+            "sortId": 23,
+            "description": "\u901a\u5173WR-EX-6",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex06",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_24",
+            "sortId": 24,
+            "description": "\u901a\u5173WR-EX-7",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex07",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 80
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_25",
+            "sortId": 25,
+            "description": "\u901a\u5173WR-EX-8",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex08",
+                "1",
+                "2"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 80
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_26",
             "sortId": 26,
-            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536185\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
+            "description": "\u901a\u5173WR-EX-8\u7a81\u88ad\u6a21\u5f0f",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "1",
+            "param": [
+                "1",
+                "act16d5_ex08#f#",
+                "1",
+                "3"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "FURN",
+                    "id": "furni_dropS009_gotterdammerung_01",
+                    "count": 1
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_27",
+            "sortId": 27,
+            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536110\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
             "type": "ACTIVITY",
             "itemBgType": "COMMON",
             "preMissionIds": null,
@@ -821,19 +822,79 @@
             "templateType": "0",
             "param": [
                 "0",
-                "act23side_01^act23side_02^act23side_03^act23side_04^act23side_05^act23side_06^act23side_07^act23side_08^act23side_09^act23side_ex01^act23side_ex01#f#^act23side_ex02^act23side_ex02#f#^act23side_ex03^act23side_ex03#f#^act23side_ex04^act23side_ex04#f#^act23side_ex05^act23side_ex05#f#^act23side_ex06^act23side_ex06#f#^act23side_ex07^act23side_ex07#f#^act23side_ex08^act23side_ex08#f#",
-                "85"
+                "act16d5_01^act16d5_02^act16d5_03^act16d5_04^act16d5_05^act16d5_06^act16d5_07^act16d5_08^act16d5_09^act16d5_10^act16d5_ex01^act16d5_ex01#f#^act16d5_ex02^act16d5_ex02#f#^act16d5_ex03^act16d5_ex03#f#^act16d5_ex04^act16d5_ex04#f#^act16d5_ex05^act16d5_ex05#f#^act16d5_ex06^act16d5_ex06#f#^act16d5_ex07^act16d5_ex07#f#^act16d5_ex08^act16d5_ex08#f#",
+                "10"
             ],
             "unlockCondition": null,
             "unlockParam": null,
-            "missionGroup": "act23side",
+            "missionGroup": "act9sre",
             "toPage": null,
             "periodicalPoint": 0,
             "rewards": [
                 {
                     "type": "ACTIVITY_ITEM",
-                    "id": "act23side_token_spirit",
-                    "count": 120
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 60
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_28",
+            "sortId": 28,
+            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536125\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "0",
+            "param": [
+                "0",
+                "act16d5_01^act16d5_02^act16d5_03^act16d5_04^act16d5_05^act16d5_06^act16d5_07^act16d5_08^act16d5_09^act16d5_10^act16d5_ex01^act16d5_ex01#f#^act16d5_ex02^act16d5_ex02#f#^act16d5_ex03^act16d5_ex03#f#^act16d5_ex04^act16d5_ex04#f#^act16d5_ex05^act16d5_ex05#f#^act16d5_ex06^act16d5_ex06#f#^act16d5_ex07^act16d5_ex07#f#^act16d5_ex08^act16d5_ex08#f#",
+                "25"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 80
+                }
+            ],
+            "backImagePath": null,
+            "foldId": null,
+            "haveSubMissionToUnlock": false
+        },
+        {
+            "id": "9sreActivity_29",
+            "sortId": 29,
+            "description": "\u901a\u5173\u6d3b\u52a8\u5173\u536140\u6b21,\u4e0d\u542b\u6559\u5b66\u5173",
+            "type": "ACTIVITY",
+            "itemBgType": "COMMON",
+            "preMissionIds": null,
+            "template": "CompleteStageAct",
+            "templateType": "0",
+            "param": [
+                "0",
+                "act16d5_01^act16d5_02^act16d5_03^act16d5_04^act16d5_05^act16d5_06^act16d5_07^act16d5_08^act16d5_09^act16d5_10^act16d5_ex01^act16d5_ex01#f#^act16d5_ex02^act16d5_ex02#f#^act16d5_ex03^act16d5_ex03#f#^act16d5_ex04^act16d5_ex04#f#^act16d5_ex05^act16d5_ex05#f#^act16d5_ex06^act16d5_ex06#f#^act16d5_ex07^act16d5_ex07#f#^act16d5_ex08^act16d5_ex08#f#",
+                "40"
+            ],
+            "unlockCondition": null,
+            "unlockParam": null,
+            "missionGroup": "act9sre",
+            "toPage": null,
+            "periodicalPoint": 0,
+            "rewards": [
+                {
+                    "type": "ACTIVITY_ITEM",
+                    "id": "act16d5_token_inker_rep_1",
+                    "count": 100
                 }
             ],
             "backImagePath": null,
@@ -853,16 +914,229 @@
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_tr01",
-            "levelId": "Activities/act23side/level_act23side_tr01",
-            "zoneId": "act23side_zone1",
-            "code": "WB-TR-1",
-            "name": "\u585e\u4e0a\u5b64\u57ce",
-            "description": "\u767b\u4e34\u7389\u95e8\uff0c\u6c99\u573a\u8083\u6740\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
+            "stageId": "act16d5_st01",
+            "levelId": null,
+            "zoneId": "act9sre_zone1",
+            "code": "WR-ST-1",
+            "name": "\u4e00\u94b3\u4e4b\u6069",
+            "description": "\u53e9\u95e8\u800c\u5165\uff0c\u4e0d\u89c1\u4eba\u95f4\u3002",
+            "hardStagedId": null,
+            "dangerLevel": "LV.20",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 0,
+            "apFailReturn": 0,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 0,
+            "goldGain": 0,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 0,
+            "completeFavor": 0,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": true,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_st01",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_01",
+            "levelId": "Activities/act16d5/level_act16d5_01",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-1",
+            "name": "\u521d\u9192",
+            "description": "\u4ece\u68a6\u4e61\u82cf\u9192\u7684\u77ac\u95f4\uff0c\u4eba\u5f80\u5f80\u4f1a\u6df7\u6dc6\u73b0\u5b9e\u4e0e\u865a\u5e7b\u3002",
+            "hardStagedId": null,
+            "dangerLevel": "LV.40",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 9,
+            "apFailReturn": 8,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 90,
+            "goldGain": 90,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 8,
+            "completeFavor": 9,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "FURN",
+                        "id": "furni_inkArt_tube_01",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "FURN",
+                        "id": "furni_inkArt_tube_01",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30021",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30061",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_01",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_tr01",
+            "levelId": "Activities/act16d5/level_act16d5_tr01",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-TR-1",
+            "name": "\u5453\u8bed",
+            "description": "\u708e\u7194\u5728\u68a6\u4e2d\u5411\u5e74\u8bf7\u6559\u4e86\u5982\u4f55\u5bf9\u4ed8\u5915\u7684\u529e\u6cd5......\u4f46\u662f\u5728\u5e74\u503e\u56ca\u76f8\u6388\u4e4b\u524d\uff0c\u708e\u7194\u88ab\u53eb\u9192\u4e86\uff0c\u771f\u53ef\u60dc\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": false,
             "canBattleReplay": false,
             "apCost": 0,
@@ -917,7 +1191,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -928,99 +1202,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_tr01",
+                    "stageId": "act16d5_tr01",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_st01",
-            "levelId": null,
-            "zoneId": "act23side_zone1",
-            "code": "WB-ST-1",
-            "name": "\u5ffd\u68a6\u5c11\u5e74\u4e8b",
-            "description": "\u4eba\u4e0d\u8f9e\u8def\uff0c\u82b1\u96be\u7559\u679d\u3002",
+            "stageId": "act16d5_02",
+            "levelId": "Activities/act16d5/level_act16d5_02",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-2",
+            "name": "\u58a8\u9b49",
+            "description": "\u8fd9\u4e9b\u5c0f\u5c0f\u7684\u53ef\u6015\u7684\u751f\u7269\u4eff\u4f5b\u65e0\u7a77\u65e0\u5c3d......\u53ef\u6015\u5417\uff1f\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
             "hardStagedId": null,
-            "dangerLevel": "-",
+            "dangerLevel": "LV.40",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": false,
-            "apCost": 0,
-            "apFailReturn": 0,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 0,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 0,
-            "dailyStageDifficulty": 0,
-            "expGain": 0,
-            "goldGain": 0,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 0,
-            "completeFavor": 0,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": true,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_st01",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_01",
-            "levelId": "Activities/act23side/level_act23side_01",
-            "zoneId": "act23side_zone1",
-            "code": "WB-1",
-            "name": "\u585e\u4e0a\u6625\u6765",
-            "description": "\u82b1\u9999\u900f\u7a97\u3002\u4f46\u6c99\u573a\u8083\u6740\u4e4b\u5730\uff0c\u5e73\u795f\u4faf\u7684\u9662\u843d\u91cc\uff0c\u662f\u6ca1\u6709\u79cd\u6843\u82b1\u7684\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": null,
-            "dangerLevel": "LV.20",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 9,
@@ -1055,13 +1250,18 @@
                 "completeRewards": null,
                 "displayRewards": [
                     {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "type": "FURN",
+                        "id": "furni_inkArt_vase_01",
                         "dropType": "COMPLETE"
                     },
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1071,27 +1271,7 @@
                     },
                     {
                         "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
                         "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30011",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1103,50 +1283,32 @@
                 "displayDetailRewards": [
                     {
                         "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "type": "FURN",
+                        "id": "furni_inkArt_vase_01",
                         "dropType": "COMPLETE"
                     },
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
-                        "occPercent": "OFTEN",
+                        "occPercent": "ALWAYS",
                         "type": "MATERIAL",
                         "id": "30031",
                         "dropType": "NORMAL"
                     },
                     {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
                         "occPercent": "USUAL",
                         "type": "MATERIAL",
-                        "id": "30011",
+                        "id": "30051",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1163,7 +1325,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -1174,354 +1336,154 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_01",
+                    "stageId": "act16d5_02",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_02",
-            "levelId": "Activities/act23side/level_act23side_02",
-            "zoneId": "act23side_zone1",
-            "code": "WB-2",
-            "name": "\u6c99\u6d77\u9ec4\u5c18",
-            "description": "\u8fd9\u5ea7\u5f52\u822a\u7684\u57ce\u5e02\uff0c\u8981\u5982\u4f55\u7b5b\u51fa\u90a3\u4e9b\u6df7\u5165\u9ec4\u6c99\u7684\u6d4a\u5c18\uff1f\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": null,
-            "dangerLevel": "LV.35",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 9,
-            "apFailReturn": 8,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 90,
-            "goldGain": 90,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 8,
-            "completeFavor": 9,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30031",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30011",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30031",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30011",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_02",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_03",
-            "levelId": "Activities/act23side/level_act23side_03",
-            "zoneId": "act23side_zone1",
-            "code": "WB-3",
-            "name": "\u6811\u72b9\u5982\u6b64",
-            "description": "\u8001\u69d0\u8fd8\u672a\u957f\u51fa\u65b0\u53f6\uff0c\u5b83\u53ef\u8fd8\u8bb0\u5f97\u66fe\u7ecf\u90a3\u4e9b\u79cd\u6811\u7684\u4eba\uff1f\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": null,
-            "dangerLevel": "\u7cbe\u82f11 LV.1",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 9,
-            "apFailReturn": 8,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 90,
-            "goldGain": 90,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 8,
-            "completeFavor": 9,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30031",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30011",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30031",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30061",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30041",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30051",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "OFTEN",
-                        "type": "MATERIAL",
-                        "id": "30021",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30011",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_03",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_04",
-            "levelId": "Activities/act23side/level_act23side_04",
-            "zoneId": "act23side_zone1",
-            "code": "WB-4",
-            "name": "\u4e0d\u5ff5\u5f80\u6614",
-            "description": "\u8fdc\u773a\u4e4b\u4eba\uff0c\u6ca1\u6709\u633d\u7559\u4e00\u4e2a\u5ff5\u65e7\u7684\u6545\u53cb\u3001\u4e00\u95f4\u6b8b\u843d\u7684\u5de5\u574a\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
+            "stageId": "act16d5_03",
+            "levelId": "Activities/act16d5/level_act16d5_03",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-3",
+            "name": "\u5411\u9633",
+            "description": "\u708e\u7194\u4ece\u672a\u60f3\u8fc7\u6709\u671d\u4e00\u65e5\uff0c\u5979\u4f1a\u5728\u7a7a\u95f4\u5c42\u9762\u4e0a\u8ffd\u9010\u592a\u9633\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
             "hardStagedId": null,
             "dangerLevel": "\u7cbe\u82f11 LV.20",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 12,
+            "apFailReturn": 11,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 11,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "FURN",
+                        "id": "furni_inkArt_floorLamp_01",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "FURN",
+                        "id": "furni_inkArt_floorLamp_01",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30041",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30011",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_03",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_04",
+            "levelId": "Activities/act16d5/level_act16d5_04",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-4",
+            "name": "\u638c\u67dc",
+            "description": "\u5979\u5c0f\u65f6\u5019\u5c31\u60f3\u5f53\u4e2a\u638c\u67dc\uff0c\u957f\u5927\u4e86\u4ee5\u540e\uff0c\u5979\u624d\u660e\u767d\u90a3\u4efd\u5149\u9c9c\u4eae\u4e3d\u7684\u80cc\u540e\u662f\u4ec0\u4e48\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": null,
+            "dangerLevel": "\u7cbe\u82f11 LV.30",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 12,
@@ -1557,22 +1519,22 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
                         "type": "MATERIAL",
-                        "id": "30042",
+                        "id": "30032",
                         "dropType": "NORMAL"
                     },
                     {
                         "type": "MATERIAL",
-                        "id": "30022",
+                        "id": "30012",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1585,25 +1547,25 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "MATERIAL",
+                        "id": "30032",
                         "dropType": "NORMAL"
                     },
                     {
                         "occPercent": "ALMOST",
                         "type": "MATERIAL",
-                        "id": "30042",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30022",
+                        "id": "30012",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1620,7 +1582,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -1631,99 +1593,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_04",
+                    "stageId": "act16d5_04",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_st02",
-            "levelId": null,
-            "zoneId": "act23side_zone1",
-            "code": "WB-ST-2",
-            "name": "\u4fe1\u6211\u6240\u4fe1",
-            "description": "\u4e3a\u4ec7\u6028\u7559\u3001\u4e3a\u6069\u4e49\u6765\u3001\u4e3a\u751f\u6c11\u8ba1\u3002",
+            "stageId": "act16d5_05",
+            "levelId": "Activities/act16d5/level_act16d5_05",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-5",
+            "name": "\u62d9\u5c71",
+            "description": "\u5c71\u8109\u4f0f\u884c\u4e8e\u5927\u5730\uff0c\u6bd4\u4eba\u9020\u7684\u57ce\u5e02\u66f4\u65e9\u5343\u4e07\u5e74\u5730\u51dd\u89c6\u7740\u751f\u547d\u4ea4\u66ff\uff0c\u8fd9\u53c8\u4e0e\u5b83\u4eec\u65e0\u5173\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316",
             "hardStagedId": null,
-            "dangerLevel": "-",
+            "dangerLevel": "\u7cbe\u82f11 LV.40",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": false,
-            "apCost": 0,
-            "apFailReturn": 0,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 0,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 0,
-            "dailyStageDifficulty": 0,
-            "expGain": 0,
-            "goldGain": 0,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 0,
-            "completeFavor": 0,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": true,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_st02",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_05",
-            "levelId": "Activities/act23side/level_act23side_05",
-            "zoneId": "act23side_zone1",
-            "code": "WB-5",
-            "name": "\u98ce\u96e8\u6b32\u6765",
-            "description": "\u5929\u707e\u5c06\u81f3\uff0c\u201c\u8ba9\u8be5\u8d70\u7684\u4eba\u8d70\uff0c\u8be5\u7b97\u8d26\u7684\u4eba\u7b97\u6e05\u8d26\u3002\u201d\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": null,
-            "dangerLevel": "\u7cbe\u82f11 LV.30",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 12,
@@ -1758,13 +1641,18 @@
                 "completeRewards": null,
                 "displayRewards": [
                     {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "type": "FURN",
+                        "id": "furni_inkArt_bonsai_01",
                         "dropType": "COMPLETE"
                     },
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1786,14 +1674,20 @@
                 "displayDetailRewards": [
                     {
                         "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "type": "FURN",
+                        "id": "furni_inkArt_bonsai_01",
                         "dropType": "COMPLETE"
                     },
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1822,7 +1716,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -1833,20 +1727,99 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_05",
+                    "stageId": "act16d5_05",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_06",
-            "levelId": "Activities/act23side/level_act23side_06",
-            "zoneId": "act23side_zone1",
-            "code": "WB-6",
-            "name": "\u745f\u745f\u79cb\u534e",
-            "description": "\u6211\u8f88\u9f50\u767b\u4e34\uff0c\u4f55\u60e7\u957f\u98ce\u8d77\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
+            "stageId": "act16d5_st02",
+            "levelId": null,
+            "zoneId": "act9sre_zone1",
+            "code": "WR-ST-2",
+            "name": "\u4e00\u65e5\u4e4b\u7978",
+            "description": "\u54c0\u9e3f\u904d\u91ce\uff0c\u65e5\u6708\u4e0d\u95fb\u3002",
+            "hardStagedId": null,
+            "dangerLevel": "LV.20",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 0,
+            "apFailReturn": 0,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 0,
+            "goldGain": 0,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 0,
+            "completeFavor": 0,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": true,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_st02",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_06",
+            "levelId": "Activities/act16d5/level_act16d5_06",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-6",
+            "name": "\u753b\u4e2d",
+            "description": "\u5979\u4eec\u90fd\u5728\u753b\u91cc\uff0c\u6211\u4eec\u77e5\u9053\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
             "hardStagedId": null,
             "dangerLevel": "\u7cbe\u82f11 LV.50",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 12,
@@ -1882,22 +1855,22 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
                         "type": "MATERIAL",
-                        "id": "30062",
+                        "id": "30012",
                         "dropType": "NORMAL"
                     },
                     {
                         "type": "MATERIAL",
-                        "id": "30022",
+                        "id": "30051",
                         "dropType": "NORMAL"
                     },
                     {
@@ -1910,361 +1883,25 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "NORMAL"
                     },
                     {
-                        "occPercent": "USUAL",
+                        "occPercent": "ALWAYS",
                         "type": "MATERIAL",
-                        "id": "30062",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30022",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_06",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_07",
-            "levelId": "Activities/act23side/level_act23side_07",
-            "zoneId": "act23side_zone1",
-            "code": "WB-7",
-            "name": "\u201c\u5c4f\u98ce\u536b\u201d",
-            "description": "\u201c\u56db\u536b\u4e0d\u503e\uff0c\u4e09\u98ce\u4e0d\u5ea6\u3002\u201d\u8fd9\u5ea7\u5b88\u62a4\u8fb9\u585e\u7684\u5b64\u57ce\uff0c\u4e5f\u4ece\u4e0d\u7f3a\u5b88\u62a4\u5b83\u7684\u4eba\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": null,
-            "dangerLevel": "\u7cbe\u82f11 LV.50",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 21,
-            "apFailReturn": 20,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 210,
-            "goldGain": 210,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 20,
-            "completeFavor": 21,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30053",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30053",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_07",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_08",
-            "levelId": "Activities/act23side/level_act23side_08",
-            "zoneId": "act23side_zone1",
-            "code": "WB-8",
-            "name": "\u65f7\u53e4\u4e4b\u6664",
-            "description": "\u201c\u603b\u5f97\u6709\u4eba\uff0c\u4e3a\u7389\u95e8\u8ba8\u4e2a\u8bf4\u6cd5\u3002\u201d\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": null,
-            "dangerLevel": "\u7cbe\u82f11 LV.60",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 21,
-            "apFailReturn": 20,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 210,
-            "goldGain": 210,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 20,
-            "completeFavor": 21,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "30083",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "USUAL",
-                        "type": "MATERIAL",
-                        "id": "30083",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_08",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_09",
-            "levelId": "Activities/act23side/level_act23side_09",
-            "zoneId": "act23side_zone1",
-            "code": "WB-9",
-            "name": "\u201c\u51ac\u85cf\u201d",
-            "description": "\u4f24\u75d5\u88ab\u7591\u60d1\u4e0e\u6124\u6012\u6ecb\u517b\uff0c\u65e0\u57a0\u7684\u5b63\u8282\uff0c\u6709\u9650\u7684\u751f\u547d......\u7942\u56de\u5230\u4e86\u6545\u571f\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": null,
-            "dangerLevel": "\u7cbe\u82f11 LV.70",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 21,
-            "apFailReturn": 20,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 210,
-            "goldGain": 210,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 20,
-            "completeFavor": 21,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "MATERIAL",
-                        "id": "31033",
-                        "dropType": "NORMAL"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "30012",
                         "dropType": "NORMAL"
                     },
                     {
                         "occPercent": "ALMOST",
                         "type": "MATERIAL",
-                        "id": "31033",
+                        "id": "30051",
                         "dropType": "NORMAL"
                     },
                     {
@@ -2281,7 +1918,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2292,20 +1929,479 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_09",
+                    "stageId": "act16d5_06",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_st03",
-            "levelId": null,
-            "zoneId": "act23side_zone1",
-            "code": "WB-ST-3",
-            "name": "\u7c98\u52ab\u6536\u540e",
-            "description": "\u68cb\u5c40\u65e0\u8da3\uff0c\u4f46\u5bf9\u5f08\u4e4b\u4eba\uff0c\u7ec8\u8be5\u5206\u4e2a\u80dc\u8d1f\u3002",
+            "stageId": "act16d5_07",
+            "levelId": "Activities/act16d5/level_act16d5_07",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-7",
+            "name": "\u597d\u574f",
+            "description": "\u5982\u679c\u597d\u574f\u6ca1\u6709\u8bc4\u65ad\uff0c\u6ca1\u6709\u4ee3\u4ef7\u4e0e\u540e\u679c\uff0c\u597d\u574f\u53c8\u6709\u4ec0\u4e48\u610f\u4e49\uff1f\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
             "hardStagedId": null,
-            "dangerLevel": "-",
+            "dangerLevel": "\u7cbe\u82f11 LV.70",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 12,
+            "apFailReturn": 11,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 120,
+            "goldGain": 120,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 11,
+            "completeFavor": 12,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30042",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30022",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALMOST",
+                        "type": "MATERIAL",
+                        "id": "30042",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "30022",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_07",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_08",
+            "levelId": "Activities/act16d5/level_act16d5_08",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-8",
+            "name": "\u5927\u68a6",
+            "description": "\u751f\u611f\u5a46\u5c71\u4e4b\u6d6e\u865a\uff0c\u609f\u4eba\u4e16\u4e4b\u500f\u5ffd\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": null,
+            "dangerLevel": "\u7cbe\u82f12 LV.10",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Day",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 15,
+            "apFailReturn": 14,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 150,
+            "goldGain": 150,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 14,
+            "completeFavor": 15,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "31023",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "USUAL",
+                        "type": "MATERIAL",
+                        "id": "31023",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_08",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_09",
+            "levelId": "Activities/act16d5/level_act16d5_09",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-9",
+            "name": "\u89c2\u82b1",
+            "description": "\u6709\u4e9b\u4eba\u5e76\u4e0d\u60f3\u56de\u987e\u8fc7\u53bb\uff0c\u4ed6\u4eec\u5982\u679c\u4e0d\u4e00\u95e8\u5fc3\u601d\u5730\u5f80\u524d\u8d70\uff0c\u5c31\u518d\u4e5f\u8fc8\u4e0d\u52a8\u6b65\u5b50\u4e86\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": null,
+            "dangerLevel": "\u7cbe\u82f12 LV.10",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Day",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 18,
+            "apFailReturn": 17,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 180,
+            "goldGain": 180,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 17,
+            "completeFavor": 18,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30033",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALMOST",
+                        "type": "MATERIAL",
+                        "id": "30033",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_09",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_10",
+            "levelId": "Activities/act16d5/level_act16d5_10",
+            "zoneId": "act9sre_zone1",
+            "code": "WR-10",
+            "name": " \u5915",
+            "description": "\u5979\u5c06\u5979\u53e4\u65e7\u7684\u7075\u9b42\u753b\u5730\u4e3a\u7262\uff0c\u81ea\u987e\u81ea\u503e\u8bc9\u7740\u5979\u81ea\u5df1\u7684\u5386\u53f2\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": null,
+            "dangerLevel": "\u7cbe\u82f12 LV.10",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Day",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 18,
+            "apFailReturn": 17,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 180,
+            "goldGain": 180,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 17,
+            "completeFavor": 18,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "MATERIAL",
+                        "id": "30013",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALMOST",
+                        "type": "MATERIAL",
+                        "id": "30013",
+                        "dropType": "NORMAL"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_st01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_10",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_st03",
+            "levelId": null,
+            "zoneId": "act9sre_zone1",
+            "code": "WR-ST-3",
+            "name": "\u4e00\u95ee\u4e4b\u7b54",
+            "description": "\u84e6\u7136\u56de\u9996\uff0c\u58a8\u6d77\u4e00\u9685\u3002",
+            "hardStagedId": null,
+            "dangerLevel": null,
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 0,
@@ -2360,7 +2456,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_tr01",
+            "mainStageId": "act16d5_st01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2371,20 +2467,193 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_st03",
+                    "stageId": "act16d5_st03",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex01",
-            "levelId": "Activities/act23side/level_act23side_ex01",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-1",
-            "name": "\u699c\u4e0a\u6709\u540d",
-            "description": "\u7389\u95e8\u5c1a\u6b66\uff0c\u80fd\u8fdb\u5f97\u4e86\u90a3\u64c2\u53f0\u699c\uff0c\u54ea\u6015\u6392\u5728\u672b\u5c3e\uff0c\u5ba2\u6808\u91cc\u4e5f\u4f1a\u6709\u4eba\u656c\u4f60\u51e0\u7897\u70c8\u5200\u5b50\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": "act23side_ex01#f#",
+            "stageId": "act16d5_ex01",
+            "levelId": "Activities/act16d5/level_act16d5_ex01",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-1",
+            "name": "\u8c03\u548c",
+            "description": "\u6666\u660e\u5982\u9634\u9633\uff0c\u9886\u609f\u5f97\u5f53\uff0c\u5219\u5f97\u610f\u4e8e\u5929\u5730\u95f4\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex01#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.40",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": true,
+            "apCost": 10,
+            "apFailReturn": 9,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 1,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 1,
+            "dailyStageDifficulty": 0,
+            "expGain": 100,
+            "goldGain": 100,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 9,
+            "completeFavor": 10,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "ACTIVITY_ITEM",
+                        "id": "act16d5_token_inker_rep_1",
+                        "dropType": "COMPLETE"
+                    },
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_ex01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "FOUR_STAR",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "main_02-08",
+                    "completeState": "PASS"
+                },
+                {
+                    "stageId": "act16d5_ex01",
+                    "completeState": "COMPLETE"
+                }
+            ],
+            "stageId": "act16d5_ex01#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex01",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-1",
+            "name": "\u8c03\u548c",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u6211\u65b9\u8fdc\u7a0b\u5e72\u5458\u751f\u547d\u503c\u5927\u5e45\u4e0b\u964d",
+            "hardStagedId": null,
+            "dangerLevel": "-",
+            "dangerPoint": -1.0,
+            "loadingPicId": "loading_Painting_Night",
+            "canPractice": true,
+            "canBattleReplay": false,
+            "apCost": 10,
+            "apFailReturn": 5,
+            "etItemId": null,
+            "etCost": -1,
+            "etFailReturn": -1,
+            "etButtonStyle": null,
+            "apProtectTimes": 0,
+            "diamondOnceDrop": 1,
+            "practiceTicketCost": 3,
+            "dailyStageDifficulty": 0,
+            "expGain": 100,
+            "goldGain": 100,
+            "loseExpGain": 0,
+            "loseGoldGain": 0,
+            "passFavor": 5,
+            "completeFavor": 10,
+            "slProgress": 0,
+            "displayMainItem": null,
+            "hilightMark": false,
+            "bossMark": false,
+            "isPredefined": false,
+            "isHardPredefined": false,
+            "isSkillSelectablePredefined": false,
+            "isStoryOnly": false,
+            "appearanceStyle": "MAIN_NORMAL",
+            "stageDropInfo": {
+                "firstPassRewards": null,
+                "firstCompleteRewards": null,
+                "passRewards": null,
+                "completeRewards": null,
+                "displayRewards": [
+                    {
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ],
+                "displayDetailRewards": [
+                    {
+                        "occPercent": "ALWAYS",
+                        "type": "DIAMOND",
+                        "id": "4002",
+                        "dropType": "COMPLETE"
+                    }
+                ]
+            },
+            "canUseCharm": false,
+            "canUseTech": false,
+            "canUseTrapTool": false,
+            "canUseBattlePerformance": false,
+            "startButtonOverrideId": null,
+            "isStagePatch": false,
+            "mainStageId": "act16d5_ex01",
+            "extraCondition": null,
+            "extraInfo": null
+        },
+        {
+            "stageType": "ACTIVITY",
+            "difficulty": "NORMAL",
+            "performanceStageFlag": "NORMAL_STAGE",
+            "diffGroup": "NONE",
+            "unlockCondition": [
+                {
+                    "stageId": "act16d5_ex01",
+                    "completeState": "PASS"
+                }
+            ],
+            "stageId": "act16d5_ex02",
+            "levelId": "Activities/act16d5/level_act16d5_ex02",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-2",
+            "name": " \u5992\u6068",
+            "description": "\u5176\u5b9e\u67d0\u4eba\u51e0\u4e4e\u4ece\u672a\u6709\u8fc7\u8fd9\u79cd\u60c5\u7eea\uff0c\u4e0d\u8fc7\u8fd9\u786e\u5b9e\u662f\u5979\u6240\u89c1\u7684\u8bf8\u591a\u590d\u6742\u60c5\u611f\u4e4b\u4e2d\uff0c\u6700\u5bb9\u6613\u4ee4\u4eba\u6293\u72c2\u4e5f\u6c89\u9189\u7684\u4e00\u79cd\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027",
+            "hardStagedId": "act16d5_ex02#f#",
             "dangerLevel": "\u7cbe\u82f11 LV.50",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 10,
@@ -2420,7 +2689,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2433,7 +2702,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2450,7 +2719,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2465,20 +2734,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex01",
+                    "stageId": "act16d5_ex02",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex01#f#",
-            "levelId": "Activities/act23side/level_act23side_ex01",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-1",
-            "name": "\u699c\u4e0a\u6709\u540d",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u5c71\u6d77\u4f17\u5934\u76ee\u548c\u5c71\u6d77\u4f17\u79d8\u4f7f\u653b\u51fb\u529b\u63d0\u5347",
+            "stageId": "act16d5_ex02#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex02",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-2",
+            "name": " \u5992\u6068",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u590d\u6742\u7684\u201c\u5992\u201d\u7279\u6b8a\u653b\u51fb\u91ca\u653e\u9891\u7387\u63d0\u5347",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 10,
@@ -2533,7 +2802,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2544,193 +2813,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex01",
+                    "stageId": "act16d5_ex02",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex02",
-            "levelId": "Activities/act23side/level_act23side_ex02",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-2",
-            "name": "\u5f00\u5e02\u5927\u5409",
-            "description": "\u5728\u7389\u95e8\uff0c\u9664\u4e86\u8fd9\u51e0\u5e74\u4e00\u5f00\u7684\u96c6\u5e02\uff0c\u4f60\u8fd8\u80fd\u5728\u54ea\u513f\u4e70\u5230\u6c5f\u5357\u7684\u65b0\u8336\u3001\u5c1a\u8700\u7684\u597d\u9152......\u4eba\u80fd\u4e0d\u591a\u561b\uff1f\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": "act23side_ex02#f#",
-            "dangerLevel": "\u7cbe\u82f11 LV.60",
+            "stageId": "act16d5_ex03",
+            "levelId": "Activities/act16d5/level_act16d5_ex03",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-3",
+            "name": "\u9635\u6cd5",
+            "description": "\u5927\u708e\u53e4\u8001\u7684\u5175\u6cd5\u5b66\u8bf4\u91cc\u5f3a\u8c03\u8fc7\u201c\u6392\u5175\u5e03\u9635\u201d\u7684\u8bf4\u6cd5\uff0c\u58a8\u9b49\u4eec\u53ea\u662f\u89c9\u5f97\u8fd9\u4e9b\u4e8b\u60c5\u597d\u73a9\u3002\u5f53\u7136\uff0c\u548c\u90a3\u4f4d\u5175\u6cd5\u5bb6\u672c\u4eba\u95f2\u6765\u65e0\u4e8b\u7684\u5506\u4f7f\u4e5f\u6709\u5173\u7cfb\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex03#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.70",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
-            "canPractice": true,
-            "canBattleReplay": true,
-            "apCost": 10,
-            "apFailReturn": 9,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 1,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 1,
-            "dailyStageDifficulty": 0,
-            "expGain": 100,
-            "goldGain": 100,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 9,
-            "completeFavor": 10,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
-                        "dropType": "COMPLETE"
-                    },
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "FOUR_STAR",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "main_02-08",
-                    "completeState": "PASS"
-                },
-                {
-                    "stageId": "act23side_ex02",
-                    "completeState": "COMPLETE"
-                }
-            ],
-            "stageId": "act23side_ex02#f#",
-            "levelId": "Activities/act23side/level_act23side_ex02",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-2",
-            "name": "\u5f00\u5e02\u5927\u5409",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u51fa\u73b0\u989d\u5916<@lv.item><\u57ce\u9632\u8def\u969c></>",
-            "hardStagedId": null,
-            "dangerLevel": "-",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
-            "canPractice": true,
-            "canBattleReplay": false,
-            "apCost": 10,
-            "apFailReturn": 5,
-            "etItemId": null,
-            "etCost": -1,
-            "etFailReturn": -1,
-            "etButtonStyle": null,
-            "apProtectTimes": 0,
-            "diamondOnceDrop": 1,
-            "practiceTicketCost": 3,
-            "dailyStageDifficulty": 0,
-            "expGain": 100,
-            "goldGain": 100,
-            "loseExpGain": 0,
-            "loseGoldGain": 0,
-            "passFavor": 5,
-            "completeFavor": 10,
-            "slProgress": 0,
-            "displayMainItem": null,
-            "hilightMark": false,
-            "bossMark": false,
-            "isPredefined": false,
-            "isHardPredefined": false,
-            "isSkillSelectablePredefined": false,
-            "isStoryOnly": false,
-            "appearanceStyle": "MAIN_NORMAL",
-            "stageDropInfo": {
-                "firstPassRewards": null,
-                "firstCompleteRewards": null,
-                "passRewards": null,
-                "completeRewards": null,
-                "displayRewards": [
-                    {
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ],
-                "displayDetailRewards": [
-                    {
-                        "occPercent": "ALWAYS",
-                        "type": "DIAMOND",
-                        "id": "4002",
-                        "dropType": "COMPLETE"
-                    }
-                ]
-            },
-            "canUseCharm": false,
-            "canUseTech": false,
-            "canUseTrapTool": false,
-            "canUseBattlePerformance": false,
-            "startButtonOverrideId": null,
-            "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
-            "extraCondition": null,
-            "extraInfo": null
-        },
-        {
-            "stageType": "ACTIVITY",
-            "difficulty": "NORMAL",
-            "performanceStageFlag": "NORMAL_STAGE",
-            "diffGroup": "NONE",
-            "unlockCondition": [
-                {
-                    "stageId": "act23side_ex02",
-                    "completeState": "PASS"
-                }
-            ],
-            "stageId": "act23side_ex03",
-            "levelId": "Activities/act23side/level_act23side_ex03",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-3",
-            "name": "\u51fb\u9798\u8840\u70ed",
-            "description": "\u519b\u58eb\u4eec\u4ee5\u5200\u51fb\u9798\uff0c\u4e3a\u9635\u524d\u6f14\u6b66\u7684\u5c06\u58eb\u52a9\u5a01......\u7389\u95e8\u519b\u4e2d\u7684\u4f20\u7edf\uff0c\u5012\u662f\u4ece\u672a\u53d8\u8fc7\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": "act23side_ex03#f#",
-            "dangerLevel": "\u7cbe\u82f11 LV.60",
-            "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 15,
@@ -2766,7 +2862,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2779,7 +2875,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2796,7 +2892,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2811,20 +2907,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex03",
+                    "stageId": "act16d5_ex03",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex03#f#",
-            "levelId": "Activities/act23side/level_act23side_ex03",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-3",
-            "name": "\u51fb\u9798\u8840\u70ed",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u573a\u4e0a\u56db\u4e2a\u4f4d\u7f6e\u4e0d\u53ef\u90e8\u7f72",
+            "stageId": "act16d5_ex03#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex03",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-3",
+            "name": "\u9635\u6cd5",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u604d\u60da\u7684\u201c\u5f97\u610f\u201d\u79fb\u52a8\u901f\u5ea6\u5927\u5e45\u5ea6\u63d0\u5347",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 15,
@@ -2879,7 +2975,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2890,20 +2986,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex03",
+                    "stageId": "act16d5_ex03",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex04",
-            "levelId": "Activities/act23side/level_act23side_ex04",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-4",
-            "name": "\u6c99\u6d77\u4e4b\u6e20",
-            "description": "\u5982\u6c5f\u5410\u6d6a\uff0c\u9a6d\u6f6e\u800c\u52a8\uff0c\u851a\u4e3a\u58ee\u89c2\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": "act23side_ex04#f#",
-            "dangerLevel": "\u7cbe\u82f12 LV.1",
+            "stageId": "act16d5_ex04",
+            "levelId": "Activities/act16d5/level_act16d5_ex04",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-4",
+            "name": " \u7f8e\u611f",
+            "description": "\u6765\u6e90\u4e8e\u4e0d\u534f\u8c03\u7684\u534f\u8c03\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex04#f#",
+            "dangerLevel": "\u7cbe\u82f11 LV.70",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 15,
@@ -2939,7 +3035,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2952,7 +3048,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -2969,7 +3065,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -2984,20 +3080,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex04",
+                    "stageId": "act16d5_ex04",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex04#f#",
-            "levelId": "Activities/act23side/level_act23side_ex04",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-4",
-            "name": "\u6c99\u6d77\u4e4b\u6e20",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u573a\u4e0a\u516d\u4e2a\u4f4d\u7f6e\u4e0d\u53ef\u90e8\u7f72",
+            "stageId": "act16d5_ex04#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex04",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-4",
+            "name": " \u7f8e\u611f",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u604d\u60da\u7684\u201c\u5f97\u610f\u201d\u751f\u547d\u503c\u5927\u5e45\u5ea6\u63d0\u5347",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Night",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 15,
@@ -3052,7 +3148,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3063,20 +3159,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex04",
+                    "stageId": "act16d5_ex04",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex05",
-            "levelId": "Activities/act23side/level_act23side_ex05",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-5",
-            "name": "\u74ee\u57ce\u72ec\u9189",
-            "description": "\u5f53\u5e74\u63b7\u76cf\u98de\u6b8b\u66ae\uff0c\u4eca\u5bb5\u6294\u9152\u5bf9\u9ad8\u57ce\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": "act23side_ex05#f#",
+            "stageId": "act16d5_ex05",
+            "levelId": "Activities/act16d5/level_act16d5_ex05",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-5",
+            "name": "\u6808\u9053",
+            "description": "\u4e00\u6bb5\u53e4\u6734\u7684\u7a7a\u95f4\uff0c\u8e29\u7740\u843d\u65e5\u65f6\u5206\u7684\u56de\u5fc6\u3002\u5982\u679c\u653e\u5728\u73b0\u5b9e\u91cc\u7684\u5927\u708e\uff0c\u4e5f\u8bb8\u4f1a\u6210\u4e3a\u62cd\u7167\u7559\u5ff5\u7684\u5723\u5730\u3002\\n<@lv.item><\u6666\u660e\u4e4b\u5370></>\u90e8\u7f72\u5728\u5176\u4e0a\u7684\u5e72\u5458\u83b7\u5f97\u6666\u660e\u5c5e\u6027\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex05#f#",
             "dangerLevel": "\u7cbe\u82f12 LV.10",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 15,
@@ -3112,7 +3208,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3125,7 +3221,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3142,7 +3238,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3157,20 +3253,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex05",
+                    "stageId": "act16d5_ex05",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex05#f#",
-            "levelId": "Activities/act23side/level_act23side_ex05",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-5",
-            "name": "\u74ee\u57ce\u72ec\u9189",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u654c\u65b9\u5355\u4f4d\u653b\u51fb\u901f\u5ea6\u63d0\u5347",
+            "stageId": "act16d5_ex05#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex05",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-5",
+            "name": "\u6808\u9053",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u6211\u65b9\u5e72\u5458\u963b\u6321\u6570-2",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 15,
@@ -3225,7 +3321,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3236,20 +3332,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex05",
+                    "stageId": "act16d5_ex05",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex06",
-            "levelId": "Activities/act23side/level_act23side_ex06",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-6",
-            "name": "\u590d\u767b\u4e34",
-            "description": "\u65f6\u9694\u591a\u5e74\uff0c\u4ed6\u518d\u6b21\u767b\u4e0a\u4e86\u7389\u95e8\u57ce\u697c\u3002\u8fd9\u573a\u89c1\u9762\u672c\u8be5\u66f4\u65e9\u4e00\u4e9b\uff0c\u6216\u8005\u66f4\u665a\u4e00\u4e9b\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e\\n<@lv.item><\u57ce\u9632\u8def\u969c></>\u53ef\u4ee5\u963b\u6321\u591a\u540d\u654c\u4eba",
-            "hardStagedId": "act23side_ex06#f#",
+            "stageId": "act16d5_ex06",
+            "levelId": "Activities/act16d5/level_act16d5_ex06",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-6",
+            "name": "\u5f53\u5173",
+            "description": "\u56de\u987e\u5927\u6f20\u843d\u65e5\u65f6\uff0c\u53e4\u4ee3\u82f1\u6770\u4eec\u8fce\u51fb\u5916\u654c\u4e0e\u975e\u4eba\u4e4b\u7269\u7684\u8eab\u5f71\u3002\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316\\n<@lv.item><\u969c\u788d\u7269></>\u90e8\u7f72\u4ee5\u540e\u53ef\u4ee5\u963b\u6321\u654c\u4eba\u7684\u884c\u8fdb\u8def\u7ebf",
+            "hardStagedId": "act16d5_ex06#f#",
             "dangerLevel": "\u7cbe\u82f12 LV.20",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 15,
@@ -3285,7 +3381,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3298,7 +3394,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3315,7 +3411,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3330,20 +3426,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex06",
+                    "stageId": "act16d5_ex06",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex06#f#",
-            "levelId": "Activities/act23side/level_act23side_ex06",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-6",
-            "name": "\u590d\u767b\u4e34",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u201c\u788e\u58c1\u201d\u548c\u5c71\u6d77\u4f17\u8fde\u9635\u8005\u9632\u5fa1\u529b\u5927\u5e45\u63d0\u5347",
+            "stageId": "act16d5_ex06#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex06",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-6",
+            "name": "\u5f53\u5173",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u6211\u65b9\u8fd1\u6218\u5e72\u5458\u653b\u51fb\u901f\u5ea6\u4e0b\u964d\u4f46\u9632\u5fa1\u63d0\u5347\uff0c\u573a\u4e0a\u989d\u5916\u9884\u7f6e3\u4e2a\u969c\u788d\u7269",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 15,
@@ -3398,7 +3494,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3409,20 +3505,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex06",
+                    "stageId": "act16d5_ex06",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex07",
-            "levelId": "Activities/act23side/level_act23side_ex07",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-7",
-            "name": "\u9f13\u58f0\u5c3d",
-            "description": "\u6765\u5e74\u4eca\u65e5\uff0c\u671b\u70fd\u8282\u65f6\uff0c\u70fd\u706b\u4f9d\u65e7\u4f1a\u4f20\u904d\u57ce\u697c\uff0c\u60df\u613f\u592a\u5e73\u957f\u5b89\uff0c\u5f81\u9f13\u58f0\u58f0\u5c11\u3002\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": "act23side_ex07#f#",
+            "stageId": "act16d5_ex07",
+            "levelId": "Activities/act16d5/level_act16d5_ex07",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-7",
+            "name": "\u8ff7\u9014",
+            "description": "\u4eba\u90fd\u4f1a\u5728\u6f2b\u957f\u7684\u751f\u6d3b\u8f68\u8ff9\u4e2d\u8ff7\u5931\u65b9\u5411\u3002\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex07#f#",
             "dangerLevel": "\u7cbe\u82f12 LV.25",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 20,
@@ -3458,7 +3554,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3471,7 +3567,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3488,7 +3584,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3503,20 +3599,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex07",
+                    "stageId": "act16d5_ex07",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex07#f#",
-            "levelId": "Activities/act23side/level_act23side_ex07",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-7",
-            "name": "\u9f13\u58f0\u5c3d",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u201c\u8d8a\u957f\u5c18\u201d\u751f\u547d\u503c\u63d0\u5347",
+            "stageId": "act16d5_ex07#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex07",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-7",
+            "name": "\u8ff7\u9014",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u6218\u573a\u4e2d\u76849\u4e2a\u4f4d\u7f6e\u65e0\u6cd5\u90e8\u7f72\u6211\u65b9\u5355\u4f4d",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Desert",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 20,
@@ -3571,7 +3667,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3582,20 +3678,20 @@
             "diffGroup": "NONE",
             "unlockCondition": [
                 {
-                    "stageId": "act23side_ex07",
+                    "stageId": "act16d5_ex07",
                     "completeState": "PASS"
                 }
             ],
-            "stageId": "act23side_ex08",
-            "levelId": "Activities/act23side/level_act23side_ex08",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-8",
-            "name": "\u95ee\u5c81",
-            "description": "\u8c01\u80fd\u89e3\u7942\u4e4b\u60d1\uff1f\\n<@lv.item><\u7389\u95e8\u5929\u707e\u5de5\u4e8b></>\u7f6e\u4e8e\u5176\u4e2d\u7684\u5355\u4f4d\u5bf9\u5730\u9762\u5355\u4f4d\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u5347\uff0c\u53d7\u5230\u6765\u81ea\u5730\u9762\u5355\u4f4d\u7684\u4f24\u5bb3\u964d\u4f4e",
-            "hardStagedId": "act23side_ex08#f#",
+            "stageId": "act16d5_ex08",
+            "levelId": "Activities/act16d5/level_act16d5_ex08",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-8",
+            "name": "\u89c4\u77e9",
+            "description": "\u81ea\u6210\u65b9\u5706\uff0c\u65b9\u4e3a\u5927\u81ea\u5728\u3002\u753b\u5730\u4e3a\u7262\uff0c\u7559\u795e\u610f\u4e8e\u4eba\u95f4\uff0c\u4e5f\u662f\u5979\u7684\u81ea\u7531\u3002\\n<@lv.item><\u6539\u826f\u578b\u4e8c\u8e22\u811a></>\u5bf9\u5468\u56f4\u56db\u683c\u7684\u654c\u4eba\u9020\u6210\u6cd5\u672f\u4f24\u5bb3\uff0c\u6548\u679c\u8303\u56f4\u5185\u6666\u660e\u5c5e\u6027\u53d8\u5316\\n<@lv.item><\u671d\u66ae\u4e4b\u5370></>\u654c\u4eba\u9996\u6b21\u7ecf\u8fc7\u540e\u5c5e\u6027\u53d8\u5316",
+            "hardStagedId": "act16d5_ex08#f#",
             "dangerLevel": "\u7cbe\u82f12 LV.30",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": true,
             "apCost": 20,
@@ -3631,7 +3727,7 @@
                 "displayRewards": [
                     {
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3644,7 +3740,7 @@
                     {
                         "occPercent": "ALWAYS",
                         "type": "ACTIVITY_ITEM",
-                        "id": "act23side_token_spirit",
+                        "id": "act16d5_token_inker_rep_1",
                         "dropType": "COMPLETE"
                     },
                     {
@@ -3661,7 +3757,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         },
@@ -3676,20 +3772,20 @@
                     "completeState": "PASS"
                 },
                 {
-                    "stageId": "act23side_ex08",
+                    "stageId": "act16d5_ex08",
                     "completeState": "COMPLETE"
                 }
             ],
-            "stageId": "act23side_ex08#f#",
-            "levelId": "Activities/act23side/level_act23side_ex08",
-            "zoneId": "act23side_zone2",
-            "code": "WB-EX-8",
-            "name": "\u95ee\u5c81",
-            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u6211\u65b9\u5355\u4f4d\u963b\u6321\u6570-1\uff0c\u5984\u5883\u751f\u547d\u503c\u63d0\u5347",
+            "stageId": "act16d5_ex08#f#",
+            "levelId": "Activities/act16d5/level_act16d5_ex08",
+            "zoneId": "act9sre_zone2",
+            "code": "WR-EX-8",
+            "name": "\u89c4\u77e9",
+            "description": "<@lv.fs>\u9644\u52a0\u6761\u4ef6\uff1a</>\\n\u653b\u51fb\u540c\u5c5e\u6027\u5355\u4f4d\u65f6\uff0c\u6211\u65b9\u653b\u51fb\u529b\u5927\u5e45\u4e0b\u964d",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,
-            "loadingPicId": "loading_WB_Wall",
+            "loadingPicId": "loading_Painting_Day",
             "canPractice": true,
             "canBattleReplay": false,
             "apCost": 20,
@@ -3744,7 +3840,7 @@
             "canUseBattlePerformance": false,
             "startButtonOverrideId": null,
             "isStagePatch": false,
-            "mainStageId": "act23side_ex01",
+            "mainStageId": "act16d5_ex01",
             "extraCondition": null,
             "extraInfo": null
         }
