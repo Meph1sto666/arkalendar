@@ -11,8 +11,7 @@
 <div class="flex justify-center items-center w-fit relative select-none float-left h-24">
 	<img
 		src="/assets/furn/{furn?.iconId}.png"
-		class="absolute object-center"
+		class="object-center"
 		alt={furn?.iconId}
-		width="auto"
 	/>
 </div>
