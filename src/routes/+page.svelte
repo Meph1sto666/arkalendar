@@ -12,7 +12,11 @@
 		<a href="/events" id="events-nav-card" class="nav-card variant-ghost-primary">
 			<header>
 				{#if data.eventData!=null}
-					<img src="/assets/banners/{data.eventData.banner}" alt="Current event" class=" w-full">
+				<img src="/assets/banners/{data.eventData.banner}" alt="Current event" class=" w-full">
+				{/if}
+				{#if data.eventData==null}
+					<span class="absolute bg-secondary-900">PLACEHOLDER</span>
+					<img src="/assets/banners/unknown_eb.png" alt="Current event" class=" w-full">
 				{/if}
 			</header>
 			<div>
@@ -33,6 +37,10 @@
 			<header>
 				{#if data.eventData!=null}
 					<img src="/assets/banners/{data.eventData.hh_banner}" alt="Current event" class=" w-full">
+				{/if}
+				{#if data.eventData==null}
+					<span class="absolute bg-secondary-900">PLACEHOLDER</span>
+					<img src="/assets/banners/unknown.png" alt="Current event" class=" w-full">
 				{/if}
 			</header>
 			Headhunting
